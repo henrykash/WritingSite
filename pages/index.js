@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import TopNav from '../Components/TopNav'
+import Footer from '../Components/Footer'
+import LandingSection from '../Components/LandingSection'
 
 const Homepage = () => {
   return (
@@ -14,9 +16,10 @@ const Homepage = () => {
       <TopNav />
 
       <main>
-        
+        <LandingSection />
       </main>
 
+      <Footer />
     </div>
   )
 }
