@@ -4,11 +4,11 @@ const Footer = () => {
      <footer className="text-gray-600 body-font border-t-2">
       <div className="container px-5 py-24 mx-auto flex items-center md:flex-row flex-col">
         <div className="flex flex-col md:pr-10 md:mb-0 mb-6 pr-0 w-full md:w-auto md:text-left text-center">
-          <h2 className="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">Get the best out of our services</h2>
-          <h1 className="md:text-3xl text-xl font-medium title-font text-gray-900">Contact Us</h1>
+          <h2 className="text-xs tracking-widest font-medium title-font mb-1 text-black">Get the best out of our services</h2>
+          <h1 className="md:text-3xl text-xl font-medium title-font text-red-900">Contact Us</h1>
           <ul>
-            <li>support-writing@gmail.com</li>
-            <li>+254789657235</li>
+            <li className='text-black underline'>support-writing@gmail.com</li>
+            <li className='text-black underline'>+254789657235</li>
           </ul>
         </div>
         <div className="flex md:ml-auto md:mr-0 mx-auto items-center flex-shrink-0 space-x-4">

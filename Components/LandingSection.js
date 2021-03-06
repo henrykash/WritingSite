@@ -13,8 +13,8 @@ const LandingSection = () => {
             />
             </div>
             <div className=''>
-                <h3 className='font-bold text-4xl'>About Our Writing Services</h3>
-                <ul className='text-2xl'>
+                <h3 className='font-bold text-4xl'>Our Writing Services</h3>
+                <ul className='text-xl'>
                     <li type='disc'>Original content - No plagiarism.</li>
                     <li type='disc'>High-quality content.</li>
                     <li type='disc'>In time work.</li>
