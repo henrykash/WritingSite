@@ -32,12 +32,12 @@ const Homepage = () => {
         <br />
         <hr />
 
-        <DynamicStatistics />
+        {/*<DynamicStatistics />
         <br />
         <hr />
 
         <ProductReviews />
-        <br />
+        <br />*/}
 
       </main>
 

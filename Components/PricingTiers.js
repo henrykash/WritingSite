@@ -1,12 +1,14 @@
 import React from 'react'
 import tierStyles from '../styles/tierstyles.module.css'
 import CheckCircle from '../public/check-circle.svg';
-import XCircle from '../public/x-square.svg';
 import Link from 'next/link'
 
 
 
 const PricingTiers = () => {
+ const openCheckout = () => {
+   window.location.href =='./pages/order-now.js';
+   }
     return (
         <div className={tierStyles["body"]} >
             <section className='flex flex-row space-x-5'>
@@ -37,8 +39,8 @@ const PricingTiers = () => {
                    <CheckCircle />
                         Feature D
                 </div>
-                <Link href="order-now">
-                <button className={tierStyles["cta"]} type="button"><span>Order Paper</span></button>
+                <Link className={tierStyles["cta"]} href="/ordernow" >
+                    <a>Order Paper</a>
                 </Link>
               </div>
 
@@ -68,9 +70,13 @@ const PricingTiers = () => {
                    <CheckCircle />
                         Feature D
                 </div>
-                <Link href="order-now">
-                <button className={tierStyles["cta"]} type="button"><span>Order Paper</span></button>
+                {/*<Link href='/ordernow'>
+                <button className={tierStyles["cta"]} type="button" src='ordernow'><span>Order Paper</span></button>
+    </Link>*/}
+                <Link className={tierStyles["cta"]} href="/ordernow" >
+                    <a>Order Paper</a>
                 </Link>
+                
               </div>
 
               <div className={tierStyles["pricecomparison"]} className={tierStyles["pricecolumn"]}>
@@ -99,8 +105,8 @@ const PricingTiers = () => {
                    <CheckCircle />
                         Feature D
                 </div>
-                <Link href="order-now">
-                <button className={tierStyles["cta"]} type="button"><span>Order Paper</span></button>
+                <Link className={tierStyles["cta"]} href="/ordernow" >
+                    <a>Order Paper</a>
                 </Link>
               </div>
 
@@ -130,8 +136,8 @@ const PricingTiers = () => {
                    <CheckCircle />
                         Feature D
                 </div>
-                <Link href="order-now">
-                <button className={tierStyles["cta"]} type="button"><span>Order Paper</span></button>
+                <Link className={tierStyles["cta"]} href="/ordernow" >
+                    <a>Order Paper</a>
                 </Link>
               </div>
             </section>
