@@ -44,12 +44,12 @@ const PricingTiers = () => {
                 
                 {/*<Link to={location => ({ ...location, pathname: "/ordernow" })}>
                 <button className={tierStyles["cta"]} type="button"><span>Order Now</span></button>
-              </Link>
-                {/*<Link href="/login">
+              </Link>*/}
+                <Link href="/pages/ordernow">
                   <Button renderAs="button">
                    <span>Login</span>
                   </Button>
-                </Link>*/}
+                </Link>
                 {/*<Button color="primary">My Bulma button</Button>*/}
 
                 {/*<Link to="/ordernow">
