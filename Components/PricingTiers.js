@@ -83,9 +83,9 @@ const PricingTiers = () => {
                    <CheckCircle />
                         Feature D
                 </div>
-                {/*<Link href='/ordernow'>
+              <Link href='/ordernow'>
                 <button className={tierStyles["cta"]} type="button" src='ordernow'><span>Order Paper</span></button>
-    </Link>*/}
+              </Link>
                 
               </div>
 
