@@ -44,8 +44,8 @@ const PricingTiers = () => {
                 
                 {/*<Link to={location => ({ ...location, pathname: "/ordernow" })}>
                 <button className={tierStyles["cta"]} type="button"><span>Order Now</span></button>
-              </Link>*/}
-                <Link href="/pages/ordernow">
+    </Link>*/}
+                <Link href="/">
                   <Button renderAs="button">
                    <span>Login</span>
                   </Button>
@@ -83,9 +83,9 @@ const PricingTiers = () => {
                    <CheckCircle />
                         Feature D
                 </div>
-              <Link href='/ordernow'>
+                {/*<Link href='/ordernow'>
                 <button className={tierStyles["cta"]} type="button" src='ordernow'><span>Order Paper</span></button>
-              </Link>
+    </Link>*/}
                 
               </div>
 

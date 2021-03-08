@@ -3,7 +3,7 @@ import TopNav from '../Components/TopNav'
 import Footer from '../Components/Footer'
 import LandingSection from '../Components/LandingSection'
 import AboutUs from '../Components/AboutUs'
-import PricingTiers from '../Components/PricingTiers'
+//import PricingTiers from '../Components/PricingTiers'
 
 const Homepage = () => {
   return (
@@ -28,9 +28,9 @@ const Homepage = () => {
         <br />
         <hr />
 
-        <PricingTiers />
+        {/**<PricingTiers />
         <br />
-        <hr />
+        <hr />*/}
 
         {/*<DynamicStatistics />
         <br />
