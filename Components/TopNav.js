@@ -22,9 +22,11 @@ const TopNav = () => {
                 <li className="rounded hover:bg-red-700 text-xl">Contact Us</li>
                 </div>
                 <div className="flex flex-row space-x-5 absolute top-10 right-5">
-                <Link>
+
+                <Link href='/'>
                 <button className="rounded bg-red-700 text-xl hover:underline">Log In</button>
                 </Link>
+                
                 <button className="rounded bg-red-700 text-xl hover:underline">Sign Up</button>
                 </div>
             </ul>

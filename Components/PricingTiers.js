@@ -42,19 +42,12 @@ const PricingTiers = () => {
                         Feature D
                 </div>
                 
-                {/*<Link to={location => ({ ...location, pathname: "/ordernow" })}>
-                <button className={tierStyles["cta"]} type="button"><span>Order Now</span></button>
-              </Link>*/}
                 <Link href="/pages/ordernow">
-                  <Button renderAs="button">
-                   <span>Login</span>
-                  </Button>
+                  <button className={tierStyles["cta"]}>
+                   <span>Order Now</span>
+                  </button>
                 </Link>
-                {/*<Button color="primary">My Bulma button</Button>*/}
-
-                {/*<Link to="/ordernow">
-                <button variant="contained">About</button>
-                </Link>*/}
+                
               </div>
 
               <div className={tierStyles["pricecomparison"]} className={tierStyles["pricecolumn"]}>
@@ -83,9 +76,12 @@ const PricingTiers = () => {
                    <CheckCircle />
                         Feature D
                 </div>
-                {/*<Link href='/ordernow'>
-                <button className={tierStyles["cta"]} type="button" src='ordernow'><span>Order Paper</span></button>
-    </Link>*/}
+                
+                <Link href="/pages/ordernow">
+                  <button className={tierStyles["cta"]}>
+                   <span>Order Now</span>
+                  </button>
+                </Link>
                 
               </div>
 
@@ -115,6 +111,13 @@ const PricingTiers = () => {
                    <CheckCircle />
                         Feature D
                 </div>
+
+                <Link href="/pages/ordernow">
+                  <button className={tierStyles["cta"]}>
+                   <span>Order Now</span>
+                  </button>
+                </Link>
+
               </div>
 
               <div className={tierStyles["pricecomparison"]} className={tierStyles["pricecolumn"]}>
@@ -143,6 +146,13 @@ const PricingTiers = () => {
                    <CheckCircle />
                         Feature D
                 </div>
+
+                <Link href="/pages/ordernow">
+                  <button className={tierStyles["cta"]}>
+                   <span>Order Now</span>
+                  </button>
+                </Link>
+
               </div>
             </section>
         </div>
