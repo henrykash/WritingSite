@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import TopNav from '../Components/TopNav'
-import Footer from '../Components/Footer'
+//import Footer from '../Components/Footer'
 import LandingSection from '../Components/Header'
 import AboutUs from '../Components/AboutUs'
 import PricingTiers from '../Components/PricingTiers'
@@ -41,7 +41,7 @@ const Homepage = () => {
 
       </main>
 
-      <Footer />
+      {/*<Footer />*/}
     </div>
   )
 }
