@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import TopNav from '../Components/TopNav'
+import Counter from '../Components/Counter'
 //import Footer from '../Components/Footer'
 import LandingSection from '../Components/Header'
 import AboutUs from '../Components/AboutUs'
@@ -32,11 +33,11 @@ const Homepage = () => {
         <br />
         <hr />
 
-        {/*<Counter />
+        <Counter />
         <br />
         <hr />
 
-        <Testimonials />
+        {/*<Testimonials />
         <br />*/}
 
       </main>
