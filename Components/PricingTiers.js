@@ -149,4 +149,4 @@ const PricingTiers = () => {
     )
 }
 
-export default PricingTier
+export default PricingTiers
