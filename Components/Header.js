@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 
-const LandingSection = () => {
+const Header = () => {
     return (
         <div className='grid grid-flow-col grid-col-2'>
             <div>
@@ -33,4 +33,4 @@ const LandingSection = () => {
     )
 }
 
-export default LandingSection
+export default Header

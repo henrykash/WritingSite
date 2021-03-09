@@ -1,7 +1,7 @@
 import React from 'react'
 import AboutInfo from '../public/about.json'
 
-export default function AboutUs() {
+ const AboutUs = () => {
   return (
     <div>
       {AboutInfo.map((info) => {
@@ -15,3 +15,5 @@ export default function AboutUs() {
     </div>
   )
 }
+
+export default AboutUs
