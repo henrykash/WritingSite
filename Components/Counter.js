@@ -1,6 +1,5 @@
 import React, {useState} from 'react'
-import CounterStyles from '../styles/counter.module.css'
-import dynamic from 'next/dynamic'
+
 
 const Counter = () => {
 
@@ -38,30 +37,30 @@ const Counter = () => {
 		}
 
     return (
-        <div className="flex flex-row space-x-5 text-xl">
-        
-			<h1>Important site metrics include:</h1>
+        <div className="flex flex-row space-x-5">
+
+			<h1 className="text-xl">Important site metrics include:</h1>
 		
 		<section>
-			<div className="flex flex-row space-x-5 border-2">
+			<div className="flex flex-row space-x-5 border-2 text-3xl">
 				<div>
 					<i class="fab fa-youtube fa-4x"></i>
-					<h3 className="bg-red-800">Years in Academic Writing</h3>
+					<h3 className="text-xl underline">Years in Academic Writing</h3>
 					<div class="counter" data-target="6">0</div>
 				</div>
 				<div>
 					<i class="fab fa-twitter fa-4x"></i>
-					<h3 className="bg-red-800">Writers Active</h3>
+					<h3 className="text-xl underline">Writers Active</h3>
 					<div class="counter" data-target="500">0</div>
 				</div>
 				<div>
 					<i class="fab fa-facebook fa-4x"></i>
-					<h3 className="bg-red-800">Orders Delivered</h3>
+					<h3 className="text-xl underline">Orders Delivered</h3>
 					<div class="counter" data-target="3000">0</div>
 				</div>
 				<div>
 					<i class="fab fa-linkedin fa-4x"></i>
-					<h3 className="bg-red-800">Quality Score</h3>
+					<h3 className="text-xl underline">Quality Score</h3>
 					<div class="counter" data-target="95">0</div>
 				</div>
 			</div>
