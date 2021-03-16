@@ -1,9 +1,3 @@
-const Signup = () => {
-    return (
-        <div>
-            Look who's here
-        </div>
-    )
+export default function handler(req, res ){
+    res.status(200).json({ user: '' })
 }
-
-export default Signup
