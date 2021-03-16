@@ -1,4 +1,5 @@
-const Signup = () => {
+
+ const aboutus = () => {
     return (
         <div>
             Look who's here
@@ -6,4 +7,4 @@ const Signup = () => {
     )
 }
 
-export default Signup
+export default aboutus

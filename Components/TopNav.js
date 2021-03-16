@@ -19,28 +19,28 @@ const TopNav = () => {
                 <li className="rounded hover:underline text-xl">Home</li>
                 </Link>
 
-                <Link href='/'>
+                <Link href='/ourservices'>
                 <li className="rounded hover:underline text-xl">Services</li>
                 </Link>
 
-                <Link href='/'>
+                <Link href='/aboutus'>
                 <li className="rounded hover:underline text-xl">About us</li>
                 </Link>
 
-                <Link href='/'>
+                <Link href='/ordernow'>
                 <li className="rounded hover:underline text-xl">Pricing</li>
                 </Link>
 
-                <Link href='/'>
+                <Link href='/contact'>
                 <li className="rounded hover:underline text-xl">Contact Us</li>
                 </Link>
                 </div>
 
                 <div className="flex flex-row space-x-5 absolute top-10 right-5">
-                <Link href='/'>
+                <Link href='/login'>
                 <button className="rounded text-xl hover:underline">Log In</button>
                 </Link>
-                <Link href='/'>
+                <Link href='/signup'>
                 <button className="rounded text-xl hover:underline">Sign Up</button>
                 </Link>
                </div>

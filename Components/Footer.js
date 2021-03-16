@@ -2,6 +2,7 @@
 const Footer = () => {
     return (
         <div>
+            <div className="grid grid-columns-2">
             <div>
                 <h4 className="underline">Quick Links</h4>
                 <ul>
@@ -21,7 +22,8 @@ const Footer = () => {
                 </ul>
                 getworkdone@gmail.com
             </div>
-            <div className='bg-red-800 mb-0 h-6'>&copy; Copyright 2021 <b>Get Work Done</b></div>
+            </div>
+            <div className='bg-red-800 h-6 float mb-0'>&copy; Copyright 2021 <b>Get Work Done</b></div>
         </div>
     )
 }
