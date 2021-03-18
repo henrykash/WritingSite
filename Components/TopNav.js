@@ -6,6 +6,7 @@ import Link from 'next/link'
 const TopNav = () => {
     return(
         <nav class="flex flex-row space-x-7 m-2 border-b-2">
+            <Link href="/">
             <Image
                 class="m-8"
                 src="/writing.png"
@@ -13,6 +14,7 @@ const TopNav = () => {
                 width={150}
                 height={110}
                 />
+            </Link>
             <ul>
                <div class="flex flex-row space-x-10 absolute top-10 left-30">
                 <Link href='/'>
@@ -31,7 +33,7 @@ const TopNav = () => {
                 <li className="rounded hover:underline text-xl">Pricing</li>
                 </Link>
 
-                <Link href='/contact'>
+                <Link href='/contactus'>
                 <li className="rounded hover:underline text-xl">Contact Us</li>
                 </Link>
                 </div>

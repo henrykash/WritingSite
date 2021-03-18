@@ -42,7 +42,7 @@ const PricingTiers = () => {
                         Feature D
                 </div>
                 
-                <Link href="/pages/ordernow">
+                <Link href="/ordernow">
                   <button className={tierStyles["cta"]}>
                    <span>Order Now</span>
                   </button>

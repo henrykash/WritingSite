@@ -2,7 +2,7 @@
 const Footer = () => {
     return (
         <div>
-            <div className="grid grid-columns-2">
+            <div className="flex flex-row space-x-5">
             <div>
                 <h4 className="underline">Quick Links</h4>
                 <ul>

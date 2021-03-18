@@ -1,14 +1,14 @@
 import TopNav from '../Components/TopNav'
 import Footer from '../Components/Footer'
 
-const Ourservices = () => {
+
+const aboutus = () => {
     return (
         <div>
             <TopNav />
-            {/*<Testimonials /> */}
             <Footer />
         </div>
     )
 }
 
-export default Ourservices
+export default aboutus

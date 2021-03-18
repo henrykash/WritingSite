@@ -62,8 +62,6 @@ const Homepage = () => {
         <br />
         <hr />
 
-        {/*<script type='text/javascript' src='./static/tawk-io.js'></script>*/}
-
       </body>
 
       <Footer />
