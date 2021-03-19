@@ -42,7 +42,7 @@ const PricingTiers = () => {
                         Feature D
                 </div>
                 
-                <Link href="/ordernow">
+                <Link href="/checkout">
                   <button className={tierStyles["cta"]}>
                    <span>Order Now</span>
                   </button>
@@ -77,7 +77,7 @@ const PricingTiers = () => {
                         Feature D
                 </div>
                 
-                <Link href="/pages/ordernow">
+                <Link href="/checkout">
                   <button className={tierStyles["cta"]}>
                    <span>Order Now</span>
                   </button>
@@ -112,7 +112,7 @@ const PricingTiers = () => {
                         Feature D
                 </div>
 
-                <Link href="/pages/ordernow">
+                <Link href="/checkout">
                   <button className={tierStyles["cta"]}>
                    <span>Order Now</span>
                   </button>
@@ -147,7 +147,7 @@ const PricingTiers = () => {
                         Feature D
                 </div>
 
-                <Link href="/pages/ordernow">
+                <Link href="/checkout">
                   <button className={tierStyles["cta"]}>
                    <span>Order Now</span>
                   </button>

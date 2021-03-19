@@ -6,7 +6,6 @@ import AboutUs from '../Components/AboutUs'
 import PricingTiers from '../Components/PricingTiers'
 import Testimonials from '../Components/Testimonials'
 import Footer from '../Components/Footer'
-import {useState} from 'react';
 
 const Homepage = () => {
 
@@ -36,7 +35,6 @@ const Homepage = () => {
         <meta name="description" content="Online Writing, Get work Done, Get remote work done" />
         <meta name="keywords" content="Writing, Online work, Post Work, Assignments" />
         <link href="https://fonts.googleapis.com/css?family=Lato|Poppins&display=swap" rel="stylesheet"></link>
-        {/*<script type="text/javascript" dangerouslySetInnerHTML={{ __html: process.env.rawJsFromFile }}></script>*/}
       </Head>
 
       <TopNav />
