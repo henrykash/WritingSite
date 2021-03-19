@@ -6,7 +6,9 @@ import Footer from '../Components/Footer'
     return (
         <div>
             <TopNav />
-            The Checkout Zone
+            <div>
+                
+            </div>
             <Footer />
         </div>
     )
