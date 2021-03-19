@@ -1,48 +1,21 @@
-import React, {useState} from 'react';
-import TopNav from '../Components/TopNav'
-import Footer from '../Components/Footer'
+import React from 'react'
+import Avatar from '@material-ui/core/Avatar';
+import Button from '@material-ui/core/Button';
+import CssBaseline from '@material-ui/core/CssBaseline';
+import TextField from '@material-ui/core/TextField';
+import FormControlLabel from '@material-ui/core/FormControlLabel';
+import Checkbox from '@material-ui/core/Checkbox';
+import Link from '@material-ui/core/Link';
+import Paper from '@material-ui/core/Paper';
+import Box from '@material-ui/core/Box';
+import Grid from '@material-ui/core/Grid';
+import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
+import Typography from '@material-ui/core/Typography';
+import { makeStyles } from '@material-ui/core/styles';
 
-const SignInForm = () => {
-  const [input, setInput] = useState('');
 
-    const registerUser = async event => {
-      event.preventDefault() //this prevents page reload
-      console.log(input);
-      try {
-        const res = await fetch('./api/register', { //fetching and calling our REGISTER API
-          method: 'post',
-          headers: {
-            'Content-Type': 'application/json'
-          },
-          body: JSON.stringify({
-            emailAddress: input
-          })
-        })
-      } catch(err) { 
-        console.log("There's an error");
-      }
-    }
-  
-    return (
-      <div>
-        <TopNav />
-
-        <div>
-        <form onSubmit={registerUser} className='flex flex-column space-x-5'>
-        <input className='bg-gray-200 shadow-inner rounded-l p-2 flex-1' id='email' type='email' aria-label='email address' placeholder='Enter your email address' 
-        value={input}
-        onChange={e => setInput(e.target.value)} /> {/*setting the state variable to whatever value is changed */}
-        <input className='bg-gray-200 shadow-inner rounded-l p-2 flex-1' id='Signup-password' type='password' aria-label='Password' placeholder='Enter your Password' />
-        <button className='bg-blue-600 hover:bg-blue-700 duration-300 text-white shadow p-2 rounded-r' type='submit' onClick={registerUser}>
-          Sign Up
-        </button>
-        </form>
-        </div>
-
-        <Footer />
-      </div>
-    )
-  }
-
-export default SignInForm
-
+function Copyright() {
+  return (
+    
+  )
+}
