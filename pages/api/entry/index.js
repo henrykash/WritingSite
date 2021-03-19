@@ -1,1 +1,2 @@
-import db from '../../'
+import db from '../../util/db'
+
