@@ -1,5 +1,5 @@
 import { useForm } from 'react-hook-form'
-import { auth } from 'next-firebase-auth'
+import { auth } from 'firebase/autttth'
 
 
 const signUp = ({ name, email, password }) => {
