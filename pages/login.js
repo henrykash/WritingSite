@@ -131,3 +131,5 @@ function login() {
     </Grid>
   )
 }
+
+export default login
