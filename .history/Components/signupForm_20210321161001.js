@@ -22,7 +22,7 @@ const SignUpForm = () => {
     const { register, errors, handleSubmit } = useForm();
     const onSubmit = (data: signUpData) => {
         return signUp(data).then((user) => {
-            console.log(user);
+            consol
         })
     }
     return (

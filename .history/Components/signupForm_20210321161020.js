@@ -1,9 +1,4 @@
 import { useForm } from 'react-hook-form'
-interface signUpData {
-    name: string,
-    email: string,
-    password: string;
-}
 import { auth } from 'config/auth'
 
 
@@ -20,7 +15,7 @@ const signUp = ({ name, email, password }) => {
 
 const SignUpForm = () => {
     const { register, errors, handleSubmit } = useForm();
-    const onSubmit = (data: signUpData) => {
+    const onSubmit = () => {
         return signUp(data).then((user) => {
             console.log(user);
         })

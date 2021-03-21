@@ -20,7 +20,7 @@ const signUp = ({ name, email, password }) => {
 
 const SignUpForm = () => {
     const { register, errors, handleSubmit } = useForm();
-    const onSubmit = (data: signUpData) => {
+    const onSubmit = () => {
         return signUp(data).then((user) => {
             console.log(user);
         })
