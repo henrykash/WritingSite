@@ -30,7 +30,7 @@ const useStyles = makeStyles((theme) => ({
     height: '100vh',
   },
   image: {
-    backgroundImage: '',
+    backgroundImage: 'https://unsplash.com/s/photos/writing',
     backgroundRepeat: no-repeat,
     backgroundColor: theme.pallate.type === 'light' ? theme.pallete.grey[50] : theme.pallate.grey[900],
     backgroundSize: 'cover',
