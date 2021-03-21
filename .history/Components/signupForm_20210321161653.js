@@ -1,6 +1,6 @@
 import { useForm } from 'react-hook-form'
 
-import { auth } from '../config/firebase'
+import { auth } from 'config/firebase'
 
 
 
@@ -60,7 +60,10 @@ const SignUpForm = () => {
         name="email"
         ref={register({
          required: 'Please enter an email',
-         
+         pattern: {
+          value: /^(([^<>()[\\]\\\\.,;:\\s@"]+(\\.[^<>()[\\]\\\\.,;:\\s@"]+)*)|(".+"))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$/,
+          message: 'Not a valid email',
+         },
         })}
        />
         {errors.email && (

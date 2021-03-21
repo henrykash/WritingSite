@@ -1,52 +1,40 @@
-import { useForm } from 'react-hook-form'
-
-import { auth } from '../config/firebase'
-
-
-
-const signUp = ({ name, email, password }) => {
-    return auth
-        .createUserWithEmailAndPassword(email, password)
-        .then(() => {
-            console.log(response)
-        })
-        .catch((error => {
-            return { error };
-        }) )
+import { useForm } from 'react-hook-form';
+interface SignUpData {
+ name: string;
+ email: string;
+ password: string;
 }
-
-const SignUpForm = () => {
-    const { register, errors, handleSubmit } = useForm();
-    const onSubmit = () => {
-        return signUp(data).then((user) => {
-            console.log(user);
-        })
-    }
-    return (
-        <form onSubmit={handleSubmit(onSubmit)}>
-            <div className="rounded-md shadow-sm">
-                <label 
-                htmlFor="name"
-                className="block text-sm font-medium leading-5 text-gray-700">
-                    Name
-                </label>
-                <input 
-                id="name"
-                className="appearance-none block w-full px-3 py-2 border-gray-300 rounded-md placeholder-gray-400 focus:outline-none focus:shadow-outline-blue focus:border-blue-300 transition duration-150 ease-in-out sm:text-sm sm:leading-5"
-                tyoe="text"
-                name="name"
-                ref={register({
-                    required: 'Please enter your full name...',
-                })} 
-                />
-                {errors.name && (
-                    <div className="mt-2 text-xs text-red-600">
-                        {errors.name.message}
-                    </div>
-                )}
-            </div>
-            <div className="mt-6">
-               <label
+const SignUpForm:React.FC = <()> => {
+ const { register, errors, handleSubmit } = useForm();
+const onSubmit = (data: SignUpData) => {
+  console.log(data);
+ };
+return (
+    <form onSubmit={handleSubmit(onSubmit)}>
+     <div className="rounded-md shadow-sm">
+      <label
+       htmlFor="name"
+       className="block text-sm font-medium leading-5 text-gray-700"
+      >
+       Name
+      </label>
+      <input
+       id="name"
+       className="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md placeholder-gray-400 focus:outline-none focus:shadow-outline-blue focus:border-blue-300 transition duration-150 ease-in-out sm:text-sm sm:leading-5"
+       type="text"
+       name="name"
+       ref={register({
+        required: 'Please enter an name',      
+       })}
+      />
+      {errors.password && (
+       <div className="mt-2 text-xs text-red-600">
+        {errors.password.message}
+       </div>
+      )}
+     </div>
+     <div className="mt-6">
+      <label
        htmlFor="email"
        className="block text-sm font-medium leading-5 text-gray-700"
       >
@@ -60,17 +48,20 @@ const SignUpForm = () => {
         name="email"
         ref={register({
          required: 'Please enter an email',
-         
+         pattern: {
+          value: /^(([^<>()[\\]\\\\.,;:\\s@"]+(\\.[^<>()[\\]\\\\.,;:\\s@"]+)*)|(".+"))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$/,
+          message: 'Not a valid email',
+         },
         })}
        />
-        {errors.email && (
-         <div className="mt-2 text-xs text-red-600">
-          {errors.email.message}
-         </div>
-         )}
-         </div> 
+       {errors.email && (
+        <div className="mt-2 text-xs text-red-600">
+         {errors.email.message}
         </div>
-        <div className="mt-6">
+       )}
+      </div>
+     </div>
+     <div className="mt-6">
       <label
        htmlFor="password"
        className="block text-sm font-medium leading-5 text-gray-700"
@@ -107,9 +98,9 @@ const SignUpForm = () => {
         Sign up
        </button>
       </span>
-      </div>
-        </form>
-    )
-}
-
-export default SignUpForm
+     </div>
+    </form>
+   );
+  }
+};
+export default SignUpForm;
