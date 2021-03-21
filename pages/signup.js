@@ -13,8 +13,13 @@ const SignUpPage = () => {
                         <a href="#" className="text-blue-500">Log in</a>
                     </Link>
                     </p>
-                </div>    
+                </div>  
+              <div className="mt-8 bg-white py-8 px-4 shadow sm:rounded-lg sm:px-10">
+                  Todo: create the sign up form component and add here
+              </div>
             </div>
         </div>
     )
 }
+
+export default SignUpPage;
