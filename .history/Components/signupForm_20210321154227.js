@@ -10,12 +10,7 @@ import { auth } from 'config/auth'
 const signUp = ({ name, email, password }) => {
     return auth
         .createUserWithEmailAndPassword(email, password)
-        .then(() => {
-            console.log(response)
-        })
-        .catch((error => {
-            return { error };
-        }) )
+        .then 
 }
 
 const SignUpForm = () => {

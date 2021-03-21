@@ -13,9 +13,7 @@ const signUp = ({ name, email, password }) => {
         .then(() => {
             console.log(response)
         })
-        .catch((error => {
-            return { error };
-        }) )
+        .catch((error =) )
 }
 
 const SignUpForm = () => {

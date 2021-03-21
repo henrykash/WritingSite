@@ -11,11 +11,8 @@ const signUp = ({ name, email, password }) => {
     return auth
         .createUserWithEmailAndPassword(email, password)
         .then(() => {
-            console.log(response)
+            console.log
         })
-        .catch((error => {
-            return { error };
-        }) )
 }
 
 const SignUpForm = () => {

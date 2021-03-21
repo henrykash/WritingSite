@@ -14,7 +14,7 @@ const signUp = ({ name, email, password }) => {
             console.log(response)
         })
         .catch((error => {
-            return { error };
+            return error;
         }) )
 }
 

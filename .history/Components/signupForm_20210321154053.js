@@ -4,19 +4,7 @@ interface signUpData {
     email: string,
     password: string;
 }
-import { auth } from 'config/auth'
-
-
-const signUp = ({ name, email, password }) => {
-    return auth
-        .createUserWithEmailAndPassword(email, password)
-        .then(() => {
-            console.log(response)
-        })
-        .catch((error => {
-            return { error };
-        }) )
-}
+import 
 
 const SignUpForm = () => {
     const { register, errors, handleSubmit } = useForm();
