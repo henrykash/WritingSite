@@ -21,9 +21,7 @@ const signUp = ({ name, email, password }) => {
 const SignUpForm = () => {
     const { register, errors, handleSubmit } = useForm();
     const onSubmit = (data: signUpData) => {
-        return signUp(data).then((user) => {
-            console.log(user);
-        })
+        return signUp(data).then
     }
     return (
         <form onSubmit={handleSubmit(onSubmit)}>
