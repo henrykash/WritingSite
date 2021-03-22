@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import LoginForm from '../Components/loginForm'
+import 
 
 const LoginPage = () => {
     return (
@@ -14,11 +14,9 @@ const LoginPage = () => {
                     </p>
                 </div>
                <div className="mt-8 bg-white py-8 px-4 shadow sm:rounded-lg sm:px-10">
-                <LoginForm />    
+                Todo: Create a login form and add it here    
                </div> 
             </div>
         </div>
     )
 }
-
-export default LoginPage
