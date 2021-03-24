@@ -3,7 +3,7 @@ const admin = require('firebase-admin');
 const serviceAccount = require('./secretAccount.json');
 
 export const verifyIdToken = (token) => {
-    if(!admin.apps.length){
+    if(!admin.apps.){
         admin.initializeApp({
             credential: admin.credential.cert(serviceAccount),
             databaseURL: process.env.NEXT_PUBLIC_FIREBASE_DATABASE_URL,
@@ -12,7 +12,7 @@ export const verifyIdToken = (token) => {
     return admin
     .auth()
     .verifyIdToken(token) //this is the JWT token
-    .catch((error) =>{
+    .catch((error) => {
         throw error;
     }
     )

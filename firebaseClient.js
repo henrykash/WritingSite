@@ -1,5 +1,5 @@
 //setting up Auth
-const firebase = require ('firebase');
+const firebase = require ('firebase/app');
 
 const FIREBASE_CONFIG = {
     apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
