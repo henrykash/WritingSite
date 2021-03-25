@@ -3,7 +3,7 @@ import { auth } from '../config/firebase'
 
 
 
-const signUp = ({ name, email, password }) => {
+const signUp = ({ email, password }) => {
     return auth
         .createUserWithEmailAndPassword(email, password)
         .then(() => {
