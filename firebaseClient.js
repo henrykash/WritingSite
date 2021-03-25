@@ -13,7 +13,9 @@ const FIREBASE_CONFIG = {
 }
 
 export default function firebaseClient(){
+    if(typeof window === 'undefined'){
     if (!firebase.apps.length) {
         firebase.initializeApp(FIREBASE_CONFIG); //initializing our Firebase application
       }
+}
 }
