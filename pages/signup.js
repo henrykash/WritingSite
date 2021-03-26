@@ -10,7 +10,7 @@ const SignUpPage = () => {
                     <h2 className="mt-6 text-center text-3xl leading-9 font-extrabold text-gray-900">Sign up</h2>
                     <p className="mt-2 text-center text-md text-gray-600">already have an account?{' '}
                     <Link href='/login'>
-                        <a className="text-blue-500 underline">Log in</a>
+                        <a className="bg-red-700 underline">Log in</a>
                     </Link>
                     </p>
                 </div>  

@@ -3,7 +3,7 @@ import 'firebase/auth'
 import 'firebase/storage'
 import 'firebase/firestore'
 
-export const firebaseConfig = {
+export const app = firebase.initializeApp({
   apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
   authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
   databaseURL: process.env.NEXT_PUBLIC_FIREBASE_DATABASE_URL,
@@ -12,8 +12,13 @@ export const firebaseConfig = {
   messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
   appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
   measurementId: process.env.NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID,
-};
-if (!firebase.apps.length) {
+});
+
+export default app
+
+export const auth = app.auth()
+
+/*if (!firebase.apps.length) {
   firebase.initializeApp(firebaseConfig);
 }
 const app = firebase.app();
@@ -22,4 +27,4 @@ const db = firebase.firestore();
 const now = firebase.firestore.Timestamp.now();
 const storage = firebase.storage();
 export { auth, db, now, storage };
-console.log(app.name ? 'Firebase Mode Activated!' : 'Firebase not working :(');
+console.log(app.name ? 'Firebase Mode Activated!' : 'Firebase not working :(');*/
