@@ -2,7 +2,11 @@ module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: theme => (
+        {'background-image': "url('/public/writing-bg.jpg')"}
+      )
+    },
   },
   variants: {
     extend: {},

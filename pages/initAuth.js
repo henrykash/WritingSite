@@ -1,4 +1,4 @@
-import { init } from 'next-firebase-auth'
+/*import { init } from 'next-firebase-auth'
 
 const initAuth = () => {
   init({
@@ -41,4 +41,4 @@ const initAuth = () => {
   })
 }
 
-export default initAuth
+export default initAuth*/

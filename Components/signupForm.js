@@ -1,9 +1,9 @@
 import { useForm } from 'react-hook-form'
-import { auth } from '../config/firebase'
+import { useAuth } from '../contexts/AuthContext.js'
+import {useRef} from 'react'
 
 
-
-const signUp = ({ email, password }) => {
+/*const signUp = ({ email, password }) => {
     return auth
         .createUserWithEmailAndPassword(email, password)
         .then(() => {
@@ -13,13 +13,20 @@ const signUp = ({ email, password }) => {
             return { error };
         }) )
 }
+*/
 
 const SignUpForm = () => {
+
+    const { signup } = useAuth()
     const { register, errors, handleSubmit } = useForm();
     const onSubmit = (data) => {
-        return signUp(data).then((user) => {
+        return signup(data).then((user) => {
             console.log(user);
         })
+    }
+    function handleSubmit(e) {
+        e.preventDefault(); //prevents th form from refreshing
+        signUp()
     }
     return (
         <form onSubmit={handleSubmit(onSubmit)}>

@@ -6,8 +6,10 @@ const LoginForm = () => {
         console.log(data);
  };
   return (
-    <form onSubmit={handleSubmit(onSubmit)}>
-      <div className="rounded-md">
+    <div>
+      <div>
+        <form onSubmit={handleSubmit(onSubmit)}>
+        <div className="rounded-md">
         <label
           htmlFor="email"
           className="block text-sm font-medium leading-5 text-gray-700"
@@ -70,6 +72,8 @@ const LoginForm = () => {
         </span>
       </div>
     </form>
+    </div>  
+    </div>
           );
 };
 

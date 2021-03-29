@@ -1,35 +1,62 @@
- import React, {useContext, useState, useEffect} from 'react'
- import {auth} from '../config/firebase'
- 
- const AuthContext = React.createContext();
- export const useAuth = () => {
-     return context = useContext(AuthContext);
- }
+import React, { useContext, useState, useEffect } from "react"
+import { auth } from "../firebaseConfig/firebase"
 
- export function AuthProvider({children}) {
-     const [currentUser, setCurrentUser] = useState();
+const AuthContext = React.createContext()
 
-     const signUp = (email, password) =>{
-         return auth.createUserWithEmailAndPassword(email, password);
-     }
+export function useAuth() {
+  return useContext(AuthContext)
+}
 
-     const value = {
-         currentUser,
-     }
+export function AuthProvider({ children }) {
+  const [currentUser, setCurrentUser] = useState()
+  const [loading, setLoading] = useState(true)
 
-     useEffect(() => {
-        const unsubscribe = auth.onAuthStateChanged(user => {
-            setCurrentUser(user);
-        })
-        return unsubscribe; //this will unsubscribe the user whenever we un-mount the relative component
-     }, [])
-     
-     return (
-         <div>
-             <AuthContext.Provider value={value}> {/* autheniticating our currentUser everywhere in the application */}
-                    {children}
-             </AuthContext.Provider>
-         </div>
-     )
- }
- 
+  function signup(email, password) {
+    return auth.createUserWithEmailAndPassword(email, password)
+  }
+
+  function login(email, password) {
+    return auth.signInWithEmailAndPassword(email, password)
+  }
+
+  function logout() {
+    return auth.signOut()
+  }
+
+  function resetPassword(email) {
+    return auth.sendPasswordResetEmail(email)
+  }
+
+  function updateEmail(email) {
+    return currentUser.updateEmail(email)
+  }
+
+  function updatePassword(password) {
+    return currentUser.updatePassword(password)
+  }
+
+  useEffect(() => {
+    const unsubscribe = auth.onAuthStateChanged(user => {
+      setCurrentUser(user)
+      setLoading(false)
+    })
+
+    return unsubscribe
+  }, [])
+
+  const value = {
+    currentUser,
+    login,
+    signup,
+    logout,
+    resetPassword,
+    updateEmail,
+    updatePassword
+  }
+
+  return (
+    <AuthContext.Provider value={value}>
+      {!loading && children}
+    </AuthContext.Provider>
+  )
+}
