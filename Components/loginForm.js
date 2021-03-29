@@ -4,6 +4,7 @@ const LoginForm = () => {
     const { register, errors, handleSubmit } = useForm();
     const onSubmit = (data) => {
         console.log(data);
+        //implementing sign in authentication ??
  };
   return (
     <div>
