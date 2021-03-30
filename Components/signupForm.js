@@ -1,19 +1,5 @@
 import { useForm } from 'react-hook-form'
-import { useAuth } from '../contexts/AuthContext.js'
-import {useRef} from 'react'
 
-
-/*const signUp = ({ email, password }) => {
-    return auth
-        .createUserWithEmailAndPassword(email, password)
-        .then(() => {
-            console.log(response)
-        })
-        .catch((error => {
-            return { error };
-        }) )
-}
-*/
 
 const SignUpForm = () => {
 
