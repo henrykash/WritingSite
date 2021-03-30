@@ -1,15 +1,20 @@
 import { setAuthCookies } from 'next-firebase-auth'
-import initAuth from '../../initAuth' // the module you created above
+import initAuth from '../../initAuth'
 
 initAuth()
 
-const handler = async (req, res) => {
-  try {
-    await setAuthCookies(req, res)
-  } catch (e) {
-    return res.status(500).json({ error: 'Unexpected error.' })
-  }
-  return res.status(200).json({ success: true })
+const handler = async(req, res) => {
+	try {
+	  await setAuthCookies(req, res)
+
+	}
+	catch(error) {
+		console.log(error)
+		return res.status(500).json({ error: 'Unexpected error ' })
+	}
+	return res.status(200).json({ status: true })
+
 }
 
 export default handler
+

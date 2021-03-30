@@ -6,6 +6,14 @@ import AboutUs from '../Components/AboutUs'
 import PricingTiers from '../Components/PricingTiers'
 import Testimonials from '../Components/Testimonials'
 import Footer from '../Components/Footer'
+import {
+   useAuthUser,
+   withAuthUser,
+   withAuthUserTokenSSR,
+   AuthAction,
+} from 'next-firebase-auth'
+
+
 
 const Homepage = () => {
 
@@ -26,6 +34,8 @@ const Homepage = () => {
   else{
     console.log('What happened to the Tawk.io plugin?!')
   }
+
+
   return (
     <div className='overflow-y-hidden'>
       <Head>

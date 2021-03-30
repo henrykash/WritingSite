@@ -3,7 +3,7 @@ import { init } from 'next-firebase-auth'
 
 const initAuth = () => {
   var admin = require("firebase-admin");
-  var serviceAccount = require("/serviceAccount.json");
+  var serviceAccount = require("../secretAccount.json");
 
   init({
     authPageURL: '/auth',
