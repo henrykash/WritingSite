@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import LoginForm from '../Components/loginForm'
+import LoginForm from '../Components/login/loginForm'
 import Footer from '../Components/Footer'
 
 
