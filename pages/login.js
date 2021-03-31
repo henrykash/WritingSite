@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import LoginForm from '../Components/login/loginForm'
-import Footer from '../Components/Footer'
+import Footer from '../Components/footer/Footer'
 
 
 const LoginPage = () => {

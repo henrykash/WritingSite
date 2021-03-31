@@ -78,8 +78,4 @@ const LoginForm = () => {
           );
 };
 
-<<<<<<< HEAD
 export default LoginForm
-=======
-export default LoginForm
->>>>>>> 579a1d0c307bfcf4af555c53b00a1f1fb3af6c65
