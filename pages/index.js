@@ -1,11 +1,11 @@
 import Head from 'next/head'
-import TopNav from '../Components/TopNav'
-import Counter from '../Components/Counter'
-import LandingSection from '../Components/Header'
-import AboutUs from '../Components/AboutUs'
-import PricingTiers from '../Components/PricingTiers'
-import Testimonials from '../Components/Testimonials'
-import Footer from '../Components/Footer'
+import TopNav from '../Components/nav/TopNav'
+import Counter from '../Components/counter/Counter'
+import LandingSection from '../Components/header/Header'
+import AboutUs from '../Components/about/AboutUs'
+import PricingTiers from '../Components/pricingTiers/PricingTiers'
+import Testimonials from '../Components/testimonials/Testimonials'
+import Footer from '../Components/footer/Footer'
 import {
    useAuthUser,
    withAuthUser,
