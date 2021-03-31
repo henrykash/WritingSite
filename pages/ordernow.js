@@ -1,6 +1,6 @@
 import React from 'react'
-import TopNav from '../Components/TopNav'
-import PricingTiers from '../Components/PricingTiers'
+import TopNav from '../Components/nav/TopNav'
+import PricingTiers from '../Components/pricingTiers/PricingTiers'
 import Footer from '../Components/Footer'
 
 const orderNow = () => {

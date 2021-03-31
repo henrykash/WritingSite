@@ -1,5 +1,5 @@
-import TopNav from '../Components/TopNav'
-import Footer from '../Components/Footer'
+import TopNav from '../Components/nav/TopNav'
+import Footer from '../Components/footer/Footer'
 
 
 const aboutus = () => {

@@ -6,14 +6,6 @@ import AboutUs from '../Components/about/AboutUs'
 import PricingTiers from '../Components/pricingTiers/PricingTiers'
 import Testimonials from '../Components/testimonials/Testimonials'
 import Footer from '../Components/footer/Footer'
-import {
-   useAuthUser,
-   withAuthUser,
-   withAuthUserTokenSSR,
-   AuthAction,
-} from 'next-firebase-auth'
-
-
 
 const Homepage = () => {
 
