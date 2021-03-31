@@ -4,3 +4,4 @@ import CheckCircle from '../assets/svg/check-circle.svg';
 export default () => {
   <CheckCircle />
 }
+//wtf

@@ -2,7 +2,7 @@ import Head from 'next/head'
 import TopNav from '../Components/nav/TopNav'
 import Counter from '../Components/counter/Counter'
 import LandingSection from '../Components/header/Header'
-import AboutUs from '../Components/about/AboutUs'
+
 import PricingTiers from '../Components/pricingTiers/PricingTiers'
 import Testimonials from '../Components/testimonials/Testimonials'
 import Footer from '../Components/footer/Footer'
@@ -46,7 +46,7 @@ const Homepage = () => {
         <br />
         <hr />
 
-        <AboutUs />
+        {/*<AboutUs />*/}
         <br />
         <hr />
 
