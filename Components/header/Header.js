@@ -14,7 +14,7 @@ const Header = () => {
             />
             </div>
             <div className=''>
-            <h2 className='font-bold text-4xl'>Get Work Done <TypingComponent /></h2>
+            <h2 className='font-bold text-3xl'>Get Work Done <TypingComponent /></h2>
             <div>
                 <ul className='text-xl'>
                     <li type='disc'>Original content - No plagiarism.</li>

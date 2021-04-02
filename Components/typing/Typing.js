@@ -24,6 +24,7 @@ componentWillUnmount() {
       <>
         <span
           style={{ whiteSpace: "pre" }}
+          className="underline"
           ref={(el) => {
             this.el = el;
           }}
