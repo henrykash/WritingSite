@@ -7,19 +7,19 @@ const withAuth = (Component) => {
         constructor(props) {
             super(props);
             this.state = {
-            status: 'LOADING',
+            status: 'LOADING', //the initial LOADING state
             }
         }
-
+        //checking whether the user actually exists
         componentDidMount() {
             auth.onAuthStateChanged(authUser => {
                 console.log(authUser);
                 if(authUser) {
                     this.setState({
-                    status: 'SIGNED_IN'
+                    status: 'SIGNED_IN' //the SIGNED IN state
                     });
                 }
-                else {
+                else { //redirecting the user to the route page if he doesn't exist
                     router.push('/');
                 }
             });
