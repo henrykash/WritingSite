@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import TypingComponent from '../../Components/typing/Typing'
 
 const Header = () => {
     return (
@@ -13,7 +14,8 @@ const Header = () => {
             />
             </div>
             <div className=''>
-                <h3 className='font-bold text-4xl'>Our Writing Services</h3>
+            <h2 className='font-bold text-4xl'>Get Work Done <TypingComponent /></h2>
+            <div>
                 <ul className='text-xl'>
                     <li type='disc'>Original content - No plagiarism.</li>
                     <li type='disc'>High-quality content.</li>
@@ -28,6 +30,7 @@ const Header = () => {
                     </li>
                     <li type='disc'><b>All time</b> online support</li>
                 </ul>
+            </div>
             </div>
         </div>
     )
