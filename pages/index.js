@@ -23,10 +23,6 @@ const Homepage = () => {
       }
       setTawk()
   }
-  else{
-    console.log('What happened to the Tawk.io plugin?!')
-  }
-
 
   return (
     <div className='overflow-y-hidden'>
