@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import TopNav from '../Components/nav/TopNav'
-import Counter from '../Components/counter/Counter'
+//import Counter from '../Components/counter/Counter'
 import LandingSection from '../Components/header/Header'
 import AboutUs from '../Components/about/AboutUs'
 import PricingTiers from '../Components/pricingTiers/PricingTiers'
@@ -54,9 +54,9 @@ const Homepage = () => {
         <br />
         <hr />
 
-        <Counter />
+       {/* <Counter />
         <br />
-        <hr />
+       <hr />*/}
 
         <Testimonials />
         <br />
