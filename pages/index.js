@@ -1,19 +1,11 @@
 import Head from 'next/head'
 import TopNav from '../Components/nav/TopNav'
-import Counter from '../Components/counter/Counter'
+//import Counter from '../Components/counter/Counter'
 import LandingSection from '../Components/header/Header'
 import AboutUs from '../Components/about/AboutUs'
 import PricingTiers from '../Components/pricingTiers/PricingTiers'
 import Testimonials from '../Components/testimonials/Testimonials'
 import Footer from '../Components/footer/Footer'
-import {
-   useAuthUser,
-   withAuthUser,
-   withAuthUserTokenSSR,
-   AuthAction,
-} from 'next-firebase-auth'
-
-
 
 const Homepage = () => {
 
@@ -31,10 +23,6 @@ const Homepage = () => {
       }
       setTawk()
   }
-  else{
-    console.log('What happened to the Tawk.io plugin?!')
-  }
-
 
   return (
     <div className='overflow-y-hidden'>
@@ -62,9 +50,9 @@ const Homepage = () => {
         <br />
         <hr />
 
-        <Counter />
+       {/* <Counter />
         <br />
-        <hr />
+       <hr />*/}
 
         <Testimonials />
         <br />

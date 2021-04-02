@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+{/*import React, {useState} from 'react'
 
 
 const Counter = () => {
@@ -32,9 +32,6 @@ const Counter = () => {
 			updateCount();
 		});
 		}
-		else{
-			console.log("Window object is just undefined");
-		}
 
     return (
         <div className="flex flex-row space-x-5">
@@ -65,4 +62,4 @@ const Counter = () => {
     )
 }
 
-export default Counter
+export default Counter*/}

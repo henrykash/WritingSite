@@ -1,7 +1,7 @@
 import firebase from 'firebase/app'
 import 'firebase/auth'
 
-const app = () => {
+
 if (!firebase.apps.length) {
   firebase.initializeApp({
     apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
@@ -14,19 +14,8 @@ if (!firebase.apps.length) {
     measurementId: process.env.NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID,
   });
 }
-}
+
 
 export const auth = firebase.auth()
 
-export default app;
-/*if (!firebase.apps.length) {
-  firebase.initializeApp(CONFIG);
-}*/
-
-/*const app = firebase.app();
-const auth = firebase.auth();
-const db = firebase.firestore();
-const now = firebase.firestore.Timestamp.now();
-const storage = firebase.storage();
-export { auth, db, now, storage };
-console.log(app.name ? 'Firebase Mode Activated!' : 'Firebase not working :(');*/
+export { auth, firebase };

@@ -1,5 +1,5 @@
 import React from 'react'
-import AboutInfo from '../public/about.json'
+import AboutInfo from '../../public/about.json'
 
  const AboutUs = () => {
   return (
