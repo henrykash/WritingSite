@@ -1,7 +1,7 @@
 const words = [
     'Effectively',
     'Accurately',
-    'On-time',
+    'On-timely',
     'Affordably'
   ]
   
