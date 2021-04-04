@@ -1,7 +1,7 @@
 import React from 'react'
 import TopNav from '../Components/nav/TopNav'
 import PricingTiers from '../Components/pricingTiers/PricingTiers'
-import Footer from '../Components/Footer'
+import Footer from '../Components/footer/Footer'
 
 const orderNow = () => {
     return (

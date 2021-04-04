@@ -6,7 +6,7 @@ import Link from 'next/link'
 const TopNav = () => {
     return(
         <nav class="flex flex-row space-x-7 m-2 border-b-2">
-            <Link href="/">
+            <Link href='/'>
             <Image
                 class="m-8"
                 src="/writing.png"

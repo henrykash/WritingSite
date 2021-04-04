@@ -1,11 +1,20 @@
+import Image from 'next/image'
+import Link from 'next/link'
 
 const Footer = () => {
     return (
 	<div>
 	  <footer class="bg-gray-800 text-gray-300 px-6 lg:px-8 py-12">
 	    <div class="max-w-screen-xl mx-auto mb-12 lg:mb-16">
-		{/*Add the logo img*/}
-	    	<img src="" class="h-8" alt="logo" />
+		<Link href="/">
+            <Image
+                class="m-8"
+                src="/writing.png"
+                alt="Premium logo"
+                width={150}
+                height={110}
+                />
+		</Link>
 	    </div>
 	    <div class="max-w-screen-xl mx-auto grid md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-x-8">
 		<div>
