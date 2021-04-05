@@ -3,7 +3,7 @@ import { useForm } from 'react-hook-form'
 
 const SignUpForm = () => {
 
-    const { signup } = useAuth()
+    /*const { signup } = useAuth()
     const { register, errors, handleSubmit } = useForm();
     const onSubmit = (data) => {
         return signup(data).then((user) => {
@@ -14,8 +14,11 @@ const SignUpForm = () => {
         e.preventDefault(); //prevents th form from refreshing
         signUp()
     }
+    
+    HTML5 attribute -> onSubmit={handleSubmit(onSubmit)}
+    */
     return (
-        <form onSubmit={handleSubmit(onSubmit)}>
+        <form>
             <div className="rounded-md shadow-sm">
                 <label 
                 htmlFor="name"

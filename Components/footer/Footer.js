@@ -4,7 +4,7 @@ import Link from 'next/link'
 const Footer = () => {
     return (
 	<div>
-	  <footer class="bg-gray-800 text-gray-300 px-6 lg:px-8 py-12">
+	  <footer class="bg-black text-gray-300 px-6 lg:px-8 py-12">
 	    <div class="max-w-screen-xl mx-auto mb-12 lg:mb-16">
 		<Link href="/">
             <Image
@@ -55,9 +55,28 @@ const Footer = () => {
 		<div class="text-sm space-y-4 md:space-y-1 text-center md:text-left">
 	    	  <p>&copy;2021. All Rights Reserved | <a href="#">GetWorkDone</a></p>
 	    	</div>
-	    	<div class="flex items-baseline space-x-2">
+	    	<div class="flex items-baseline grid grid-rows-2">
 	    	  <span>Coming soon</span><br />
-	    		<img src="../../public/google-play-badge.png" class="h-8" alt="playstore-link" />
+			  <div className="flex space-x-4">
+			  	<Link href="/">
+            		<Image
+                		class="m-8"
+                		src="/playstore-icon.png"
+                		alt="Playstore icon"
+                		width={70}
+                		height={70}
+                	/>
+				</Link>
+				<Link href="/">
+            		<Image
+                		class="m-8"
+                		src="/appstore.jpeg"
+                		alt="Playstore icon"
+                		width={70}
+                		height={70}
+                	/>
+				</Link>
+			  </div>
 	    	</div>
 	    </div>
 	    <div class="max-w-screen-xl mx-auto flex flex-col md:flex-row justify-between items-center space-y-4 mt-8 lg:mt-12">
