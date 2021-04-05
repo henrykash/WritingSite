@@ -30,7 +30,11 @@ const TopNav = () => {
                 </Link>
 
                 <Link href='/contactus'>
-                <li className="rounded hover:underline text-xl">Contact Us</li>
+                <li className="rounded hover:underline text-xl">Talk to Us</li>
+                </Link>
+
+                <Link href='/checkout'>
+                <li className="rounded font-bold hover:underline text-xl ">Order Now</li>
                 </Link>
                 </div>
 
