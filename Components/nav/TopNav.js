@@ -25,10 +25,6 @@ const TopNav = () => {
                 <li className="rounded hover:underline text-xl">Services</li>
                 </Link>
 
-                <Link href='/aboutus'>
-                <li className="rounded hover:underline text-xl">About us</li>
-                </Link>
-
                 <Link href='/ordernow'>
                 <li className="rounded hover:underline text-xl">Pricing</li>
                 </Link>
