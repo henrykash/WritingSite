@@ -2,10 +2,12 @@ import Link from 'next/link'
 import React from 'react'
 import SignUpForm from '../Components/signUp/signupForm'
 import Footer from '../Components/footer/Footer'
+import TopNav from '../Components/nav/TopNav'
 
 const SignUpPage = () => {
     return (
         <div className=" flex flex-col bg-gray-200 justify-center">
+            <TopNav />
             <div className="sm:mx-auto sm:w-full sm:max-w-md">
                 <div className="text-center">
                     <h2 className="text-center text-3xl leading-9 font-extrabold text-gray-900">Sign up</h2>
