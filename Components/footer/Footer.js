@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 const Footer = () => {
-    return (
+    return ( 
 	<div>
 	  <footer class="bg-black text-gray-300 px-6 lg:px-8 py-12">
 	    <div class="max-w-screen-xl mx-auto mb-12 lg:mb-16">
@@ -88,7 +88,8 @@ const Footer = () => {
 	    </nav>
 	    </div>
 	  </footer>
-	</div>	
+	</div>
+	    
     )
 }
 
