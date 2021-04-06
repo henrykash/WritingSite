@@ -92,6 +92,34 @@ const SignUpForm = () => {
                     )}
                 </div>
             </div>
+            <div className="mt-6">
+                <label
+                htmlFor="password"
+                className="block text-sm font-medium leading-5 text-gray-700"
+                >
+                    Confirm password
+                </label>
+                <div className="mt-1 rounded-md shadow-sm">
+                    <input
+                        id="password"
+                        className="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md placeholder-gray-400 focus:outline-none focus:shadow-outline-blue focus:border-blue-300 transition duration-150 ease-in-out sm:text-sm sm:leading-5"
+                        type="password"
+                        name="password"
+                        ref={register({
+                        required: 'Please enter a password',
+                        minLength: {
+                        value: 6,
+                        message: 'Should have at least 6 characters',
+                        },
+                        })}
+                    />
+                    {errors.password && (
+                    <div className="mt-2 text-xs text-red-600">
+                        {errors.password.message}
+                    </div>
+                    )}
+                </div>
+            </div>
             <div className="mt-4">
                 <span className="block w-full rounded-md shadow-sm">
                     <button
