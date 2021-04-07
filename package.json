@@ -18,6 +18,7 @@
     "next-images": "^1.7.0",
     "next-react-svg": "^1.1.2",
     "nookies": "^2.5.2",
+    "passport": "^0.4.1",
     "prop-types": "^15.7.2",
     "react": "17.0.1",
     "react-bulma-components": "^3.4.0",
