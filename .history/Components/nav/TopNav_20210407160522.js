@@ -55,7 +55,9 @@ const TopNav = () => {
                 <Link href='/signup'>
                 <button className="rounded text-xl hover:underline">Sign Up</button>
                 </Link>
-                <button onClick={handleLogout}>Logout</button>
+                < button onClick = {
+                    handleLogout
+                } > Logout < /button>
                </div>
 
             </ul>

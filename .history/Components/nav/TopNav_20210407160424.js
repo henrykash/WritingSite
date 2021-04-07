@@ -4,16 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 const TopNav = () => {
-    const [, {
-        mutate
-    }] = useUser();
-    const handleLogout = async () => {
-        await fetch('/api/auth', {
-            method: 'DELETE',
-        });
-        // set the user state to null
-        mutate(null);
-    };
+    
     return(
         <nav class="flex flex-row space-x-7 m-2 border-b-2">
             <Link href='/'>
@@ -55,7 +46,6 @@ const TopNav = () => {
                 <Link href='/signup'>
                 <button className="rounded text-xl hover:underline">Sign Up</button>
                 </Link>
-                <button onClick={handleLogout}>Logout</button>
                </div>
 
             </ul>
