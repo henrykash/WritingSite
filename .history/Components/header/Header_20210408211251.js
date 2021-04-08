@@ -23,8 +23,7 @@ const Header = () => {
                     class = "h-8 w-auto sm:h-10"
                     src="/writing.png"
                     alt="Premium logo"
-                    width={100}
-                    height={100}
+                    layout="fill"
                 />
               </a>
               <div className="-mr-2 flex items-center md:hidden">

@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import TypingComponent from '../../Components/typing/Typing'
-
+import Image from 'next/image'
 
 const Header = () => {
     return (
@@ -21,10 +21,6 @@ const Header = () => {
                 <span className="sr-only">Workflow</span>
                 <Image 
                     class = "h-8 w-auto sm:h-10"
-                    src="/writing.png"
-                    alt="Premium logo"
-                    width={100}
-                    height={100}
                 />
               </a>
               <div className="-mr-2 flex items-center md:hidden">

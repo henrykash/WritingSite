@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import TypingComponent from '../../Components/typing/Typing'
-
+import Image from 'next'
 
 const Header = () => {
     return (
@@ -19,13 +19,7 @@ const Header = () => {
             <div className="flex items-center justify-between w-full md:w-auto">
               <a href="#">
                 <span className="sr-only">Workflow</span>
-                <Image 
-                    class = "h-8 w-auto sm:h-10"
-                    src="/writing.png"
-                    alt="Premium logo"
-                    width={100}
-                    height={100}
-                />
+                <img className="h-8 w-auto sm:h-10" src="../../public/writing.png" />
               </a>
               <div className="-mr-2 flex items-center md:hidden">
                 <button type="button" className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" aria-expanded="false">

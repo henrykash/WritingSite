@@ -24,7 +24,7 @@ const Header = () => {
                     src="/writing.png"
                     alt="Premium logo"
                     width={100}
-                    height={100}
+                    height={75}
                 />
               </a>
               <div className="-mr-2 flex items-center md:hidden">
