@@ -19,3 +19,4 @@ module.exports = {
 }
 
 const defaultTheme = require('tailwindcss/defaultTheme')
+

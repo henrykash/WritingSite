@@ -6,10 +6,7 @@ module.exports = {
     extend: {
       backgroundImage: theme => (
         {'background-image': "url('/public/writing-bg.jpg')"}
-      ),
-      fontFamily: {
-        sans: ['Inter var', ...defaultTheme.fontFamily.sans],
-      },
+      )
     },
   },
   variants: {
@@ -19,3 +16,12 @@ module.exports = {
 }
 
 const defaultTheme = require('tailwindcss/defaultTheme')
+
+module.exports = {
+  theme: {
+    extend: {
+      
+    },
+  },
+  // ...
+}
