@@ -1,5 +1,5 @@
 import Head from 'next/head'
-//import TopNav from '../Components/nav/TopNav'
+import TopNav from '../Components/nav/TopNav'
 //import Counter from '../Components/counter/Counter'
 import LandingSection from '../Components/header/Header'
 import AboutUs from '../Components/about/AboutUs'

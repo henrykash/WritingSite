@@ -1,5 +1,5 @@
 import Head from 'next/head'
-//import TopNav from '../Components/nav/TopNav'
+import TopNav from '../Components/nav/TopNav'
 //import Counter from '../Components/counter/Counter'
 import LandingSection from '../Components/header/Header'
 import AboutUs from '../Components/about/AboutUs'
@@ -35,7 +35,7 @@ const Homepage = () => {
         <link href="https://fonts.googleapis.com/css?family=Lato|Poppins&display=swap" rel="stylesheet"></link>
       </Head>
 
-      
+      <Top
 
       <body>
         <LandingSection />
