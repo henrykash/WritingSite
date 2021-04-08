@@ -6,7 +6,8 @@ module.exports = {
     extend: {
       backgroundImage: theme => (
         {'background-image': "url('/public/writing-bg.jpg')"}
-      )
+      ),
+      
     },
   },
   variants: {
