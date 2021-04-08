@@ -80,7 +80,7 @@ const Header = () => {
             <a href="#" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">About Us</a>
             <a href="#" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">order now</a>
           </div>
-          <a href="#" className="block w-full px-5 py-3 text-center font-medium text-maroon-600 bg-gray-50 hover:bg-gray-100">
+          <a href="#" className="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100">
             Log in
           </a>
         </div>
@@ -92,17 +92,17 @@ const Header = () => {
             <span className="block text-indigo-600 xl:inline">DONE</span>
           </h1>
           <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-            Get your assignments and all the hard work stuff be done with some of the most trusted freelancers and in time 
+            Get your assignments and all the hard work stuff be done with some of the most trusted freelancer 
           </p>
           <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
             <div className="rounded-md shadow">
               <a href="#" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10">
-                Join us
+                Get started
               </a>
             </div>
             <div className="mt-3 sm:mt-0 sm:ml-3">
-              <a href="#" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 border-radius-25 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10">
-                Get your work done
+              <a href="#" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10">
+                Live demo
               </a>
             </div>
           </div>
@@ -111,12 +111,7 @@ const Header = () => {
     </div>
   </div>
   <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-      <Image
-          src="/writing-bg.png"
-          class = "h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-          layout="fill"
-          alt="landing photo"
-      />
+    <img className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://source.unsplash.com/writing" alt="landing-logo" />
   </div>
 </div>
 </>
