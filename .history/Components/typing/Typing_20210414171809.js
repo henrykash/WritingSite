@@ -7,7 +7,7 @@ class TypingComponent extends React.Component {
     const options = {
       strings: words,
       typeSpeed: 100,
-      backSpeed: 80,
+      backSpeed: 0,
       loop: true,
       cursorChar: "|",
     };
