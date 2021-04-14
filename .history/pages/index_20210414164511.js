@@ -19,7 +19,7 @@ const Homepage = () => {
   }
 
   return (
-    <>
+    
     <div className='overflow-y-hidden'>
       <Head>
         <title>Premium workplace!</title>
@@ -33,7 +33,6 @@ const Homepage = () => {
 
     <Layout />
       
-      </>
 
       
   )

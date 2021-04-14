@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Layout from '../Components/Layout'
+import Layout from 
 
 const Homepage = () => {
 
@@ -19,7 +19,6 @@ const Homepage = () => {
   }
 
   return (
-    <>
     <div className='overflow-y-hidden'>
       <Head>
         <title>Premium workplace!</title>
@@ -29,11 +28,8 @@ const Homepage = () => {
         <meta name="keywords" content="Writing, Online work, Post Work, Assignments" />
         <link href="https://fonts.googleapis.com/css?family=Lato|Poppins&display=swap" rel="stylesheet"></link>
       </Head>
-    </div>
 
-    <Layout />
       
-      </>
 
       
   )

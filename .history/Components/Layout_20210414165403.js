@@ -9,8 +9,6 @@ const Layout = ({ children }) => {
 
         <Header />
 
-        <Testimonials />
-
        </>
    )
 }

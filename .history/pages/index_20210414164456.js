@@ -19,7 +19,6 @@ const Homepage = () => {
   }
 
   return (
-    <>
     <div className='overflow-y-hidden'>
       <Head>
         <title>Premium workplace!</title>
@@ -30,10 +29,7 @@ const Homepage = () => {
         <link href="https://fonts.googleapis.com/css?family=Lato|Poppins&display=swap" rel="stylesheet"></link>
       </Head>
     </div>
-
-    <Layout />
       
-      </>
 
       
   )

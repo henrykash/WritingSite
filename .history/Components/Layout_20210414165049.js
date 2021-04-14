@@ -1,6 +1,5 @@
 import TopNav from './nav/TopNav'
 import Header from './header/Header'
-import Testimonials from './testimonials/Testimonials'
 
 const Layout = ({ children }) => {
    return (
@@ -8,8 +7,6 @@ const Layout = ({ children }) => {
         <TopNav />
 
         <Header />
-
-        <Testimonials />
 
        </>
    )
