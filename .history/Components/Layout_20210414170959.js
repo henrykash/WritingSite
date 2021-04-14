@@ -3,7 +3,7 @@ import Header from './header/Header'
 import Testimonials from './testimonials/Testimonials'
 import Steps from './Steps'
 import PricingTiers from './pricingTiers/PricingTiers'
-import Footer from './footer/Footer'
+import 
 
 const Layout = ({ children }) => {
    return (
@@ -18,7 +18,7 @@ const Layout = ({ children }) => {
 
         <Testimonials />
 
-        <Footer />
+        
 
        </>
    )
