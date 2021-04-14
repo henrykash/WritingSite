@@ -5,7 +5,7 @@ import Steps from './Steps'
 import PricingTiers from './pricingTiers/PricingTiers'
 import Footer from './footer/Footer'
 import CallToAction from './CallToAction'
-import Features from './Feature'
+import Features from './'
 
 const Layout = ({ children }) => {
    return (
@@ -13,8 +13,6 @@ const Layout = ({ children }) => {
         <TopNav />
 
         <Header />
-
-        <Features />
 
         < Steps />
 

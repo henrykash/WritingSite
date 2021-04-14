@@ -14,8 +14,6 @@ const Layout = ({ children }) => {
 
         <Header />
 
-        <Features />
-
         < Steps />
 
         <PricingTiers />
