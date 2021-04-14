@@ -12,8 +12,6 @@ const Layout = ({ children }) => {
 
         <Testimonials />
 
-        <Steps />
-
        </>
    )
 }

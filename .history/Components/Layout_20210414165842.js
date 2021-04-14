@@ -1,7 +1,7 @@
 import TopNav from './nav/TopNav'
 import Header from './header/Header'
 import Testimonials from './testimonials/Testimonials'
-import Steps from './Steps'
+import Steps 
 
 const Layout = ({ children }) => {
    return (
@@ -11,8 +11,6 @@ const Layout = ({ children }) => {
         <Header />
 
         <Testimonials />
-
-        <Steps />
 
        </>
    )
