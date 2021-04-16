@@ -56,10 +56,17 @@ const LoginPage = () => {
             placeholder="Password"
           />
         </label>
+
+        <hr />
+        
         <button type="submit">Sign in</button>
+
+        <hr />
+
         <Link href="/forgetpassword">
           <a>Forget password</a>
         </Link>
+
       </form>
     </>
   );
