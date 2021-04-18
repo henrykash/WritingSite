@@ -23,6 +23,7 @@
     "nookies": "^2.5.2",
     "package": "^1.0.1",
     "passport": "^0.4.1",
+    "passport-google-oauth20": "^2.0.0",
     "prop-types": "^15.7.2",
     "react": "17.0.1",
     "react-bulma-components": "^3.4.0",
