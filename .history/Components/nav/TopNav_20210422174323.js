@@ -6,5 +6,3 @@ import Link from 'next/link'
 const TopNav = () => {
     
 }
-
-export default TopNav
