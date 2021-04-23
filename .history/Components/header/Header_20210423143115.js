@@ -34,10 +34,10 @@ const Header = () => {
               more because we got you covered.
             </p>
             <div className="flex items-center">
-              <Link href="/signup">
-                <button class="inline-flex items-center font-semibold text-gray-800 transition-colors duration-200 hover:text-deep-purple-accent-700">
-                  Get started
-                </button>
+              <Link
+                href="/signup"
+                >
+                <button >Get started</button>
               </Link>
             </div>
           </div>
