@@ -12,6 +12,7 @@ const TopNav = () => {
         <div className="relative flex items-center justify-between">
           <Link
             href="/"
+  
             className="inline-flex items-center"
             >Get Work Done
             </Link>

@@ -12,8 +12,10 @@ const TopNav = () => {
         <div className="relative flex items-center justify-between">
           <Link
             href="/"
+            aria-label="Company"
+            title="Company"
             className="inline-flex items-center"
-            >Get Work Done
+            >Get 
             </Link>
           <ul class="flex items-center hidden space-x-8 lg:flex">
             <li>
