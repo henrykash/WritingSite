@@ -135,10 +135,13 @@ const TopNav = () => {
                         </Link>
                       </li>
                       <li>
-                        <Link href="/" class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        <Link href="/" 
+                          aria-label="About us"
+                          title="About us"
+                          class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
                           About us
-                        </Link>
+                        </a>
                       </li>
                       <li>
                         <a
