@@ -88,7 +88,11 @@ const TopNav = () => {
                 <div class="p-5 bg-white border rounded shadow-sm">
                   <div class="flex items-center justify-between mb-4">
                     <div>
-                      <Link href="/" class="inline-flex items-center">
+                      <Link href="/"
+                        aria-label="Company"
+                        title="Company"
+                        class="inline-flex items-center"
+                      >
                         <Image
                           class="m-8 rounded-full"
                           src="/writing.png"
@@ -117,10 +121,14 @@ const TopNav = () => {
                   <nav>
                     <ul class="space-y-4">
                       <li>
-                        <Link href="/" class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        <a
+                          href="/"
+                          aria-label="Our product"
+                          title="Our product"
+                          class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
-                          Home
-                        </Link>
+                          Product
+                        </a>
                       </li>
                       <li>
                         <a

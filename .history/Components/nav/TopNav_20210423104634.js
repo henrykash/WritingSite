@@ -117,10 +117,14 @@ const TopNav = () => {
                   <nav>
                     <ul class="space-y-4">
                       <li>
-                        <Link href="/" class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        <Link
+                          href="/" 
+                          aria-label="Our product"
+                          title="Our product"
+                          class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
-                          Home
-                        </Link>
+                          Product
+                        </a>
                       </li>
                       <li>
                         <a

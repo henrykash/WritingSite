@@ -119,8 +119,8 @@ const TopNav = () => {
                       <li>
                         <Link href="/" class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
-                          Home
-                        </Link>
+                          Prod
+                        </a>
                       </li>
                       <li>
                         <a

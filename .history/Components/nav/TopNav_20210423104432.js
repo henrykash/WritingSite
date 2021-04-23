@@ -7,7 +7,7 @@ const TopNav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className="bg-red-900 sticky top-0">
+    <div className="bg-red-00 sticky top-0">
       <div className=" text-gray-200 px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 ">
         <div className="relative flex items-center justify-between">
           <Link href="/" className="inline-flex items-center">
@@ -21,41 +21,31 @@ const TopNav = () => {
           </Link>
           <ul class="flex items-center hidden space-x-8 lg:flex">
             <li>
-              <Link
-                href="/"
-                class="font-medium tracking-wide text-gray-200 transition-colors duration-200 hover:text-deep-purple-accent-400"
+              <Link href="/" class="font-medium tracking-wide text-gray-200 transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
                 Home
               </Link>
             </li>
             <li>
-              <Link
-                href="/"
-                class="font-medium tracking-wide text-gray-200 transition-colors duration-200 hover:text-deep-purple-accent-400"
+              <Link href="/" class="font-medium tracking-wide text-gray-200 transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
                 Features
               </Link>
             </li>
             <li>
-              <Link
-                href="/pricing"
-                class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+              <Link href="/pricing" class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
                 Pricing
               </Link>
             </li>
             <li>
-              <Link
-                href="/about"
-                class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+              <Link href="/about" class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
                 About us
               </Link>
             </li>
             <li>
-              <Link
-                href="/signup"
-                class="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+              <Link href="/signup" class="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
               >
                 Sign up
               </Link>
@@ -88,15 +78,31 @@ const TopNav = () => {
                 <div class="p-5 bg-white border rounded shadow-sm">
                   <div class="flex items-center justify-between mb-4">
                     <div>
-                      <Link href="/" class="inline-flex items-center">
-                        <Image
-                          class="m-8 rounded-full"
-                          src="/writing.png"
-                          alt="Premium logo"
-                          width={75}
-                          height={75}
-                        />
-                      </Link>
+                      <a
+                        href="/"
+                        aria-label="Company"
+                        title="Company"
+                        class="inline-flex items-center"
+                      >
+                        <svg
+                          class="w-8 text-deep-purple-accent-400"
+                          viewBox="0 0 24 24"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeMiterlimit="10"
+                          stroke="currentColor"
+                          fill="none"
+                        >
+                          <rect x="3" y="1" width="7" height="12" />
+                          <rect x="3" y="17" width="7" height="6" />
+                          <rect x="14" y="1" width="7" height="6" />
+                          <rect x="14" y="11" width="7" height="12" />
+                        </svg>
+                        <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
+                          Company
+                        </span>
+                      </a>
                     </div>
                     <div>
                       <button
@@ -117,10 +123,14 @@ const TopNav = () => {
                   <nav>
                     <ul class="space-y-4">
                       <li>
-                        <Link href="/" class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        <a
+                          href="/"
+                          aria-label="Our product"
+                          title="Our product"
+                          class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
-                          Home
-                        </Link>
+                          Product
+                        </a>
                       </li>
                       <li>
                         <a
