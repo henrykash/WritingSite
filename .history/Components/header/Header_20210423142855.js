@@ -36,13 +36,14 @@ const Header = () => {
                 no more because we got you covered.
               </p>
               <div className="flex items-center">
-                <Link
-                  href="/signup"
-                  class="inline-flex items-center font-semibold text-gray-800 transition-colors duration-200 hover:text-deep-purple-accent-700"
-                >
+                <Link href="/" c>
                   <button>Get started</button>
                 </Link>
-                <a href="/" aria-label="" className="">
+                <a
+                  href="/"
+                  aria-label=""
+                  className=""
+                >
                   Learn more
                 </a>
               </div>

@@ -26,7 +26,7 @@ const Header = () => {
           </div>
           <div className="relative flex flex-col items-start w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:max-w-screen-xl">
             <div className="mb-16 lg:my-40 lg:max-w-lg lg:pr-5">
-              <h2 className="mb-5 font-sans text-3xl font-bold tracking-tight text-blue-500 sm:text-4xl sm:leading-none">
+              <h2 className="mb-5 font-sans text-3xl font-bold tracking-tight text-blue-5 sm:text-4xl sm:leading-none">
                 Get all your assignments done
                 <br className="hidden md:block" />
                 <TypingComponent />{" "}
@@ -36,13 +36,14 @@ const Header = () => {
                 no more because we got you covered.
               </p>
               <div className="flex items-center">
-                <Link
-                  href="/signup"
-                  class="inline-flex items-center font-semibold text-gray-800 transition-colors duration-200 hover:text-deep-purple-accent-700"
-                >
+                <Link href="/">
                   <button>Get started</button>
                 </Link>
-                <a href="/" aria-label="" className="">
+                <a
+                  href="/"
+                  aria-label=""
+                  className="inline-flex items-center font-semibold text-gray-800 transition-colors duration-200 hover:text-deep-purple-accent-700"
+                >
                   Learn more
                 </a>
               </div>
