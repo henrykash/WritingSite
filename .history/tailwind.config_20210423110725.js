@@ -329,3 +329,16 @@ module.exports = {
   plugins: [],
 };
 
+module.exports = {
+  theme: {
+    extend: {
+      backgroundImage: (theme) => ({
+        "background-image": "url('/public/writing-bg.jpg')",
+      }),
+    },
+  },
+  variants: {
+    extend: {},
+  },
+  plugins: [],
+};
