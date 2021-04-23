@@ -46,7 +46,7 @@ const TopNav = () => {
                 class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
                 About us
-              </Link>
+              </Lin>
             </li>
             <li>
               <a
