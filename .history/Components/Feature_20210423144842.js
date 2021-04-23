@@ -138,7 +138,7 @@ const Features = () => {
             <div>
               <h6 className="mb-2 font-semibold leading-5">Quality services</h6>
               <p className="mb-3 text-sm text-gray-900">
-                We strive to help our clients have the best experience  
+                We  
               </p>
               <ul className="mb-4 -ml-1 space-y-2">
                 <li className="flex items-start">
@@ -157,7 +157,7 @@ const Features = () => {
                       />
                     </svg>
                   </span>
-                  Quick Delivery
+                  Computers
                 </li>
                 <li className="flex items-start">
                   <span className="mr-1">
@@ -175,7 +175,7 @@ const Features = () => {
                       />
                     </svg>
                   </span>
-                  Professionally done 
+                  Health
                 </li>
                 <li className="flex items-start">
                   <span className="mr-1">
@@ -193,10 +193,16 @@ const Features = () => {
                       />
                     </svg>
                   </span>
-                  Up-to standard
+                  Reference
                 </li>
               </ul>
-              
+              <a
+                href="/"
+                aria-label=""
+                className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
+              >
+                Learn more
+              </a>
             </div>
           </div>
           <div className="flex flex-col sm:flex-row">
@@ -218,9 +224,10 @@ const Features = () => {
               </div>
             </div>
             <div>
-              <h6 className="mb-2 font-semibold leading-5">Online Support</h6>
+              <h6 className="mb-2 font-semibold leading-5">Organically grow</h6>
               <p className="mb-3 text-sm text-gray-900">
-                We have a 24/7 customer support to guide you   
+                A slice of heaven. O for awesome, this chocka full cuzzie is as
+                rip-off as a deep cracker.
               </p>
               <ul className="mb-4 -ml-1 space-y-2">
                 <li className="flex items-start">
@@ -239,7 +246,7 @@ const Features = () => {
                       />
                     </svg>
                   </span>
-                  Customer support
+                  Computers
                 </li>
                 <li className="flex items-start">
                   <span className="mr-1">
@@ -257,7 +264,7 @@ const Features = () => {
                       />
                     </svg>
                   </span>
-                  Assistance 
+                  Health
                 </li>
                 <li className="flex items-start">
                   <span className="mr-1">
@@ -275,10 +282,16 @@ const Features = () => {
                       />
                     </svg>
                   </span>
-                  Help you make an order
+                  Reference
                 </li>
               </ul>
-              
+              <a
+                href="/"
+                aria-label=""
+                className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
+              >
+                Learn more
+              </a>
             </div>
           </div>
         </div>

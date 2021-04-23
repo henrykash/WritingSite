@@ -257,7 +257,7 @@ const Features = () => {
                       />
                     </svg>
                   </span>
-                  Assistance 
+                  Health
                 </li>
                 <li className="flex items-start">
                   <span className="mr-1">
@@ -275,10 +275,16 @@ const Features = () => {
                       />
                     </svg>
                   </span>
-                  Help you make an order
+                  Reference
                 </li>
               </ul>
-              
+              <a
+                href="/"
+                aria-label=""
+                className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
+              >
+                Learn more
+              </a>
             </div>
           </div>
         </div>

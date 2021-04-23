@@ -3,7 +3,7 @@
 const Steps = () => {
   return (
     <>
-      <section className="text-gray-600 body-font ">
+      <section className="text-gray-600 body-font sticky top-0">
         <div>
           <h1 className="text-center">How to place an order</h1>
         </div>

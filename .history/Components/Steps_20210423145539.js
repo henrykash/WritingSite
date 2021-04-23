@@ -3,9 +3,9 @@
 const Steps = () => {
   return (
     <>
-      <section className="text-gray-600 body-font ">
+      <section className="text-gray-600 body-font sticky top-0">
         <div>
-          <h1 className="text-center">How to place an order</h1>
+          
         </div>
         <div className="container px-5 py-24 mx-auto flex flex-wrap">
           <div className="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
