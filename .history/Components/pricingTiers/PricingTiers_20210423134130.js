@@ -10,7 +10,7 @@ const PricingTiers = () => {
    //}
     return (
         <div className={tierStyles["body"]} >
-            <section className='flex flex-row space-x-5 sticky top-0'>
+            <section className='flex flex-row space-x-5 sticky top'>
               <h2 className='underline text-2xl text-red-900'>See our friendly prices:</h2>
               <div className={tierStyles["pricecomparison"]} className={tierStyles["pricecolumn"]}>
                 <div className={tierStyles["priceheader"]}>
