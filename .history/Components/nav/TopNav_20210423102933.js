@@ -21,9 +21,10 @@ const TopNav = () => {
           </Link>
           <ul class="flex items-center hidden space-x-8 lg:flex">
             <li>
-              <Link href="/" class="font-medium tracking-wide text-gray-200 transition-colors duration-200 hover:text-deep-purple-accent-400"
+              <Link href="/"
+                class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
-                Home
+                Product
               </Link>
             </li>
             <li>
