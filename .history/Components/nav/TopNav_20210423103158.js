@@ -27,7 +27,7 @@ const TopNav = () => {
               </Link>
             </li>
             <li>
-              <Link href="/" class="font-medium tracking-wide text-gray-200 transition-colors duration-200 hover:text-deep-purple-accent-400"
+              <Link href="/Feature" class="font-medium tracking-wide text-gray-200 transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
                 Features
               </Link>
