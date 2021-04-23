@@ -43,7 +43,7 @@ const PricingTiers = () => {
                 
               </h2>
               <p class="text-base text-gray-700 md:text-lg">
-                Get to experience our pocket friendly prices affordable for everyone  
+                Get to experience our pocket friendl  
               </p>
             </div>
             <div class="grid max-w-screen-md gap-10 md:grid-cols-2 sm:mx-auto">
@@ -160,14 +160,12 @@ const PricingTiers = () => {
                       <p class="font-medium text-gray-300">SSL Certificates</p>
                     </li>
                   </ul>
-                  <Link href="/checkout">
                   <button
                     type="submit"
                     class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
                   >
                     Get Now
                   </button>
-                  <Link>
                 </div>
                 <div class="w-11/12 h-2 mx-auto bg-gray-900 rounded-b opacity-75" />
                 <div class="w-10/12 h-2 mx-auto bg-gray-900 rounded-b opacity-50" />
@@ -286,14 +284,12 @@ const PricingTiers = () => {
                       <p class="font-medium text-gray-300">SSL Certificates</p>
                     </li>
                   </ul>
-                  <Link href="/checkout">
                   <button
                     type="submit"
                     class="inline-flex items-center justify-center w-full h-12 px-6 font-semibold tracking-wide text-teal-900 transition duration-200 rounded shadow-md bg-teal-accent-400 hover:bg-teal-accent-700 focus:shadow-outline focus:outline-none"
                   >
                     Get Now
                   </button>
-                  <Link>
                 </div>
                 <div class="w-11/12 h-2 mx-auto bg-gray-900 rounded-b opacity-75" />
                 <div class="w-10/12 h-2 mx-auto bg-gray-900 rounded-b opacity-50" />

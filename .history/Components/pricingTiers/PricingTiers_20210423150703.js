@@ -293,7 +293,8 @@ const PricingTiers = () => {
                   >
                     Get Now
                   </button>
-                  <Link>
+                  <Link
+        >
                 </div>
                 <div class="w-11/12 h-2 mx-auto bg-gray-900 rounded-b opacity-75" />
                 <div class="w-10/12 h-2 mx-auto bg-gray-900 rounded-b opacity-50" />
