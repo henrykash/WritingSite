@@ -10,14 +10,13 @@ const TopNav = () => {
     <div className="bg-red-500 sticky top-0">
       <div className=" text-gray-200 px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 ">
         <div className="relative flex items-center justify-between">
-          <Link
+          <a
             href="/"
             aria-label="Company"
             title="Company"
-            className="inline-flex items-center"
-            >
+            class="inline-flex items-center"
+          >
 
-            </Link>
           <ul class="flex items-center hidden space-x-8 lg:flex">
             <li>
               <a
