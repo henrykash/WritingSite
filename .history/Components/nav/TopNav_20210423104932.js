@@ -143,7 +143,7 @@ const TopNav = () => {
                       <li>
                         <Link href="/" class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none">
                           Sign up
-                        </Link>
+                        </L>
                       </li>
                     </ul>
                   </nav>
