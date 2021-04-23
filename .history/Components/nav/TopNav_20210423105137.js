@@ -61,7 +61,7 @@ const TopNav = () => {
               </Link>
             </li>
           </ul>
-          <div class="lg:hidden">
+          <div class="lg:hidden bg-red-700 ">
             <button
               aria-label="Open Menu"
               title="Open Menu"
@@ -85,9 +85,9 @@ const TopNav = () => {
             </button>
             {isMenuOpen && (
               <div class="absolute top-0 left-0 w-full ">
-                <div class="p-5 bg-white border rounded shadow-sm bg-red-700">
-                  <div class=" flex items-center justify-between mb-4">
-                    <div class="">
+                <div class="p-5 bg-white border rounded shadow-sm">
+                  <div class="flex items-center justify-between mb-4">
+                    <div>
                       <Link href="/" class="inline-flex items-center">
                         <Image
                           class="m-8 rounded-full"

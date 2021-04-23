@@ -85,7 +85,7 @@ const TopNav = () => {
             </button>
             {isMenuOpen && (
               <div class="absolute top-0 left-0 w-full ">
-                <div class="p-5 bg-white border rounded shadow-sm bg-red-700">
+                <div class="p-5 bg-white border rounded shadow-sm">
                   <div class=" flex items-center justify-between mb-4">
                     <div class="">
                       <Link href="/" class="inline-flex items-center">

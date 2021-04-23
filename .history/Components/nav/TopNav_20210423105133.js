@@ -61,7 +61,7 @@ const TopNav = () => {
               </Link>
             </li>
           </ul>
-          <div class="lg:hidden">
+          <div class="lg:hidden >
             <button
               aria-label="Open Menu"
               title="Open Menu"
@@ -85,9 +85,9 @@ const TopNav = () => {
             </button>
             {isMenuOpen && (
               <div class="absolute top-0 left-0 w-full ">
-                <div class="p-5 bg-white border rounded shadow-sm bg-red-700">
-                  <div class=" flex items-center justify-between mb-4">
-                    <div class="">
+                <div class="p-5 bg-white border rounded shadow-sm">
+                  <div class="flex items-center justify-between mb-4">
+                    <div>
                       <Link href="/" class="inline-flex items-center">
                         <Image
                           class="m-8 rounded-full"
@@ -117,42 +117,31 @@ const TopNav = () => {
                   <nav>
                     <ul class="space-y-4">
                       <li>
-                        <Link
-                          href="/"
-                          class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        <Link href="/" class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
                           Home
                         </Link>
                       </li>
                       <li>
-                        <Link
-                          href="/"
-                          class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        <Link href="/" class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
                           Features
                         </Link>
                       </li>
                       <li>
-                        <Link
-                          href="/"
-                          class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        <Link href="/" class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
                           Pricing
                         </Link>
                       </li>
                       <li>
-                        <Link
-                          href="/"
-                          class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        <Link href="/" class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
                           About us
                         </Link>
                       </li>
                       <li>
-                        <Link
-                          href="/"
-                          class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
-                        >
+                        <Link href="/" class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none">
                           Sign up
                         </Link>
                       </li>
