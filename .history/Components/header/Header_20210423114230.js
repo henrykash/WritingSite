@@ -18,11 +18,10 @@ const Header = () => {
             >
               <path d="M50 0H100L50 100H0L50 0Z" />
             </svg>
-            <Image
+            <img
               className="object-cover w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none md:h-96 lg:h-full"
-              src="/writingcover.jpg"
-              alt="hero"
-              layout="fill"
+              src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+              alt=""
             />
           </div>
           <div className="relative flex flex-col items-start w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:max-w-screen-xl">
@@ -38,9 +37,9 @@ const Header = () => {
                 worry no more because we got you covered.
               </p>
               <div className="flex items-center">
-                <Link href="/" 
+                <Link href="/" className=" inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
                 >
-                  <button >
+                  <button>
                   Get started
                   </button>
                 </Link>
