@@ -4,7 +4,7 @@ import Link from 'next/link'
 const Footer = () => {
     return ( 
 	<div>
-	  <footer class="sticky top-0 bg-black text-gray-300 px-6 lg:px-8 py-12">
+	  <footer class="sticky topbg-black text-gray-300 px-6 lg:px-8 py-12">
 	    <div class="max-w-screen-xl mx-auto mb-12 lg:mb-16">
 		<Link href="/">
             <Image

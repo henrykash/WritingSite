@@ -12,7 +12,7 @@ const TopNav = () => {
         <div className="relative flex items-center justify-between">
           <Link href="/" className="inline-flex items-center">
             <Image
-              class="m-8 rounded-full"
+              class="m-8 "
               src="/writing.png"
               alt="Premium logo"
               width={75}
