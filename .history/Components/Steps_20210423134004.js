@@ -3,7 +3,7 @@
 const Steps = () => {
   return (
     <>
-      <section className="text-gray-600 body-font sticky top-0">
+      <section className="text-gray-600 body-font s">
         <div className="container px-5 py-24 mx-auto flex flex-wrap">
           <div className="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
             <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
