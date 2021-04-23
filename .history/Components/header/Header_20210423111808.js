@@ -30,15 +30,17 @@ const Header = () => {
                 Get all your assignments done
                 <br className="hidden md:block" />
                 <TypingComponent />{" "}
+                
               </h2>
               <p className="pr-5 mb-5 text-base text-gray-700 md:text-lg">
-                Tired of doing assignments and need some to help you out worry
-                no more because we got you covered.
+                Tired of doing assignments and need some to help you out
+                worry no more because we got you covered.
               </p>
               <div className="flex items-center">
-                <Link href="/">
-                  <button className=" inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline rounded-full focus:outline-none">
-                    Get started
+                <Link href="/" 
+                >
+                  <button>
+                  Get started
                   </button>
                 </Link>
                 <a
