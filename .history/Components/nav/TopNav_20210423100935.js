@@ -8,8 +8,8 @@ const TopNav = () => {
 
   return (
     <div className="bg-red-500">
-      <div className="sticky text-gray-200 top-0 px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 ">
-        <div className="relative flex items-center justify-between">
+      <div className="sticky top-0 px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 ">
+        <div classN="relative flex items-center justify-between">
           <a
             href="/"
             aria-label="Company"
