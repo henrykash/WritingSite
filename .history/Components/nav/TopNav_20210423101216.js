@@ -7,7 +7,7 @@ const TopNav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className="bg-red-500 sticky top-0">
+    <div className="bg-red-500 sticky">
       <div className="sticky text-gray-200 top-0 px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 ">
         <div className="relative flex items-center justify-between">
           <a
