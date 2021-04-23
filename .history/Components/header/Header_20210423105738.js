@@ -30,7 +30,9 @@ const Header = () => {
                 Get all your assignments done
                 <br className="hidden md:block" />
                 <TypingComponent />{" "}
-                
+                <span className="inline-block text-deep-purple-accent-400">
+                  is real
+                </span>
               </h2>
               <p className="pr-5 mb-5 text-base text-gray-700 md:text-lg">
                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem

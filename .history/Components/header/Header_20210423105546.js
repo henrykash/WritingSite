@@ -27,10 +27,12 @@ const Header = () => {
           <div className="relative flex flex-col items-start w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:max-w-screen-xl">
             <div className="mb-16 lg:my-40 lg:max-w-lg lg:pr-5">
               <h2 className="mb-5 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-                Get all your assignments done
+                Everyt
                 <br className="hidden md:block" />
-                <TypingComponent />{" "}
-                
+                can imagine{" "}
+                <span className="inline-block text-deep-purple-accent-400">
+                  is real
+                </span>
               </h2>
               <p className="pr-5 mb-5 text-base text-gray-700 md:text-lg">
                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem
