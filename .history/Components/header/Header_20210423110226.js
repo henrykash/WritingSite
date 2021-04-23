@@ -37,10 +37,12 @@ const Header = () => {
                 worry no more because we got you covered.
               </p>
               <div className="flex items-center">
-                <Link href="/" className="bg-green-900 rounded-full inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+                <Link
+                  href="/"
+                  className="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
                 >
                   Get started
-                </Link>
+                </a>
                 <a
                   href="/"
                   aria-label=""
