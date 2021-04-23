@@ -9,7 +9,7 @@ const Features = () => {
               <span className="relative inline-block">
                 <svg
                   viewBox="0 0 52 24"
-                  fill="blue"
+                  fill="currentColor"
                   className="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block"
                 >
                   <defs>
@@ -30,7 +30,7 @@ const Features = () => {
                   />
                 </svg>
                 </span>{" "}
-                Features
+                FEATURES
               </h1>
             <p className="text-base text-gray-700 md:text-lg">
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem

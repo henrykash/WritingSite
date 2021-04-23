@@ -30,7 +30,7 @@ const Features = () => {
                   />
                 </svg>
                 </span>{" "}
-                Features
+                fe
               </h1>
             <p className="text-base text-gray-700 md:text-lg">
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem
