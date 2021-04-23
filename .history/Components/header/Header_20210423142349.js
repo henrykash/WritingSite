@@ -13,7 +13,7 @@ const Header = () => {
             <svg
               className="absolute left-0 hidden h-full text-white transform -translate-x-1/2 lg:block "
               viewBox="0 0 100 100"
-              fill="#B9F6CA"
+              fill="red"
               preserveAspectRatio="none slice"
             >
               <path d="M50 0H100L50 100H0L50 0Z" />
@@ -26,12 +26,12 @@ const Header = () => {
           </div>
           <div className="relative flex flex-col items-start w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:max-w-screen-xl">
             <div className="mb-16 lg:my-40 lg:max-w-lg lg:pr-5">
-              <h2 className="mb-5 font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none">
+              <h2 className="mb-5 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
                 Get all your assignments done
                 <br className="hidden md:block" />
                 <TypingComponent />{" "}
               </h2>
-              <p className="pr-5 mb-5 text-base text-white md:text-lg">
+              <p className="pr-5 mb-5 text-base text-gray-700 md:text-lg">
                 Tired of doing assignments and need some to help you out worry
                 no more because we got you covered.
               </p>

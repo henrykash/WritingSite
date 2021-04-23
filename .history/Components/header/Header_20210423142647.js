@@ -31,7 +31,7 @@ const Header = () => {
                 <br className="hidden md:block" />
                 <TypingComponent />{" "}
               </h2>
-              <p className="pr-5 mb-5 text-base text-white md:text-lg">
+              <p className="pr-5 mb-5 text-base text- md:text-lg">
                 Tired of doing assignments and need some to help you out worry
                 no more because we got you covered.
               </p>
