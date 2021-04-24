@@ -18,7 +18,7 @@ const Layout = ({ children }) => {
 
         <PricingTiers />
 
-        <Steps />
+        <Step>
 
         <Testimonials />
 
