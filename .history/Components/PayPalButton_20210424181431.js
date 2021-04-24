@@ -4,4 +4,4 @@ const PayPal = () => {
 
 }
 
-export default PayPal
+export default Pa
