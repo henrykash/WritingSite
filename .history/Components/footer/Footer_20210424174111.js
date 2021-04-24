@@ -13,7 +13,7 @@ const Footer = () => {
               </p>
               <ul className="mt-2 space-y-2">
                 <li className="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-200">
-                  <Link href="/">Hi</Link>
+                  <Link href="/">H</Link>
                 </li>
                 <li className="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-200">
                   <Link href="/">World</Link>
