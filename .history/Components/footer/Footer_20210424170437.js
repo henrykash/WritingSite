@@ -29,20 +29,20 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link
+                  <a
                     href="/"
                     className="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-200"
                   >
                     Games
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link
+                  <a
                     href="/"
                     className="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-200"
                   >
                     References
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </div>
