@@ -12,37 +12,22 @@ const Footer = () => {
                 Category
               </p>
               <ul className="mt-2 space-y-2">
-                <li>
-                  <a
-                    href="/"
-                    className="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-200"
-                  >
-                    News
-                  </a>
+                <li className="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-200">
+                  <Link href="/">Hig</Link>
                 </li>
-                <li>
-                  <a
-                    href="/"
-                    className="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-200"
-                  >
-                    World
-                  </a>
+                <li className="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-200">
+                  <Link href="/">World</Link>
                 </li>
-                <li>
-                  <a
-                    href="/"
-                    className="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-200"
-                  >
+                <li className="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-200">
+                  <Link href="/">
                     Games
-                  </a>
+                  </Link>
                 </li>
-                <li>
-                  <a
-                    href="/"
-                    className="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-200"
+                <li className="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-200"
                   >
+                  <Link href="/">
                     References
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

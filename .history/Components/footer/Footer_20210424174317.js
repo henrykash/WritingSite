@@ -12,49 +12,32 @@ const Footer = () => {
                 Category
               </p>
               <ul className="mt-2 space-y-2">
-                <li>
-                  <a
-                    href="/"
-                    className="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-200"
-                  >
-                    News
-                  </a>
+                <li className="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-200">
+                  <Link href="/">High School</Link>
                 </li>
-                <li>
-                  <a
-                    href="/"
-                    className="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-200"
-                  >
-                    World
-                  </a>
+                <li className="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-200">
+                  <Link href="/">Bachelor's</Link>
                 </li>
-                <li>
-                  <a
-                    href="/"
-                    className="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-200"
-                  >
-                    Games
-                  </a>
+                <li className="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-200">
+                  <Link href="/">Masters</Link>
                 </li>
-                <li>
-                  <a
-                    href="/"
-                    className="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-200"
+                <li className="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-200"
                   >
-                    References
-                  </a>
+                  <Link href="/">
+                    PHD
+                  </Link>
                 </li>
               </ul>
             </div>
             <div>
-              <p className="font-medium tracking-wide text-gray-300">Apples</p>
+              <p className="font-medium tracking-wide text-gray-300">Quick Links</p>
               <ul className="mt-2 space-y-2">
                 <li>
                   <a
                     href="/"
                     className="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-200"
                   >
-                    Web
+                    Home 
                   </a>
                 </li>
                 <li>
@@ -62,7 +45,7 @@ const Footer = () => {
                     href="/"
                     className="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-200"
                   >
-                    eCommerce
+                    About us 
                   </a>
                 </li>
                 <li>
@@ -70,7 +53,7 @@ const Footer = () => {
                     href="/"
                     className="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-200"
                   >
-                    Business
+                    Busin
                   </a>
                 </li>
                 <li>
