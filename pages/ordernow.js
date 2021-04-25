@@ -5,12 +5,11 @@ import Footer from '../Components/footer/Footer'
 
 const orderNow = () => {
     return (
-        <div>
+        <>
             <TopNav />
-            <PricingTiers />
-            <hr />
+            
             <Footer />
-        </div>
+        </>
     )
 }
 
