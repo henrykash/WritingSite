@@ -16,10 +16,11 @@ const Header = () => {
           >
             <path d="M50 0H100L50 100H0L50 0Z" />
           </svg>
-          <img
-            className="object-cover w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none md:h-96 lg:h-full"
-            src="https://source.unsplash.com/FHnnjk1Yj7Y/1260x750"
-            alt=""
+          <Image
+          src="https://source.unsplash.com/FHnnjk1Yj7Y/1260x750"
+          width={200}
+          height={200}
+          className="object-cover w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none md:h-96 lg:h-full"
           />
         </div>
         <div className="relative flex flex-col items-start w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:max-w-screen-xl">
