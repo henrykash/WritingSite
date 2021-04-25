@@ -5,7 +5,7 @@ const Steps = () => {
     <>
       <section className="text-gray-600 body-font ">
         <div>
-          <h1 className="text-center">How to place an order</h1>
+          <h1 className="text-center font-bold">How to place an order</h1>
         </div>
         <div className="container px-5 py-24 mx-auto flex flex-wrap">
           <div className="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">

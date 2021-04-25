@@ -261,6 +261,7 @@ const Features = () => {
           </div>
         </div>
       </div>
+      <hr />
     </div>
   );
 };
