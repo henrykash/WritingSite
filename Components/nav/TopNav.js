@@ -7,7 +7,7 @@ const TopNav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className="bg-red-900 sticky top-0">
+    <div className="bg-red-900">
       <div className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 ">
         <div className="relative flex items-center justify-between">
           <Link href="/" className="inline-flex items-center">
@@ -15,46 +15,42 @@ const TopNav = () => {
               class="m-8 rounded-full "
               src="/writing.png"
               alt="Premium logo"
-              width={100}
-              height={100}
+              width={130}
+              height={120}
             />
           </Link>
           <ul class="flex items-center hidden space-x-8 lg:flex">
-            <li class="underline">
+            <li class="tracking-wide text-black transition-colors duration-200 font-bold text-xl hover:underline">
               <Link
                 href="/"
-                class="font-medium tracking-wide text-gray-200 transition-colors duration-200"
               >
                 Order Now
               </Link>
             </li>
-            <li class="hover:underline">
+            <li class="tracking-wide text-black transition-colors duration-200 text-xl hover:underline">
               <Link
                 href="/"
-                class="font-medium tracking-wide text-gray-200 transition-colors duration-200 hover:underline"
               >
                 Features
               </Link>
             </li>
-            <li class="hover:underline">
+            <li class="tracking-wide text-black transition-colors duration-200 text-xl hover:underline">
               <Link
                 href="/pricing"
-                class="font-medium tracking-wide text-gray-700 transition-colors duration-200"
               >
                 Pricing
               </Link>
             </li>
-            <li class="hover:underline">
+            <li class="tracking-wide text-black transition-colors duration-200 text-xl hover:underline">
               <Link
                 href="/about"
-                class="font-medium tracking-wide text-gray-700 transition-colors duration-200"
               >
                 About us
               </Link>
             </li>
-            <li class="hover:underline">
+            <li class="tracking-wide text-black transition-colors duration-200 text-xl hover:underline">
               <Link
-                href="/signup"
+                href="/login"
                 class="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 focus:shadow-outline focus:outline-none"
               >
                 Sign in
