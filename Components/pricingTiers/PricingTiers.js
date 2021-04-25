@@ -164,9 +164,9 @@ const PricingTiers = () => {
                     <Link href="checkout">
                       <button
                         type="submit"
-                        class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+                        class="inline-flex items-center justify-center w-full h-12 px-6 font-bold tracking-wide text-white transition duration-200 rounded shadow-md bg-red-800 hover:underline focus:shadow-outline focus:outline-none"
                       >
-                        Get Now
+                        Order Now
                       </button>
                     </Link>
                   </div>
@@ -292,9 +292,9 @@ const PricingTiers = () => {
                     <Link href="/checkout">
                       <button
                         type="submit"
-                        class="inline-flex items-center justify-center w-full h-12 px-6 font-semibold tracking-wide text-teal-900 transition duration-200 rounded shadow-md bg-teal-accent-400 hover:bg-teal-accent-700 focus:shadow-outline focus:outline-none"
+                        class="inline-flex items-center justify-center w-full h-12 px-6 tracking-wide text-white font-bold transition duration-200 rounded shadow-md bg-red-800 hover:underline focus:shadow-outline focus:outline-none"
                       >
-                        Get Now
+                        Order Now
                       </button>
                     </Link>
                   </div>
@@ -420,9 +420,9 @@ const PricingTiers = () => {
                     <Link href="/checkout">
                       <button
                         type="submit"
-                        class="inline-flex items-center justify-center w-full h-12 px-6 font-semibold tracking-wide text-teal-900 transition duration-200 rounded shadow-md bg-teal-accent-400 hover:bg-teal-accent-700 focus:shadow-outline focus:outline-none"
+                        class="inline-flex items-center justify-center w-full h-12 px-6 font-semibold text-white tracking-wide text-white transition duration-200 rounded shadow-md bg-red-800 hover:underline focus:shadow-outline focus:outline-none"
                       >
-                        Get Now
+                        Order Now
                       </button>
                     </Link>
                   </div>
@@ -548,9 +548,9 @@ const PricingTiers = () => {
                     <Link href="/checkout">
                       <button
                         type="submit"
-                        class="inline-flex items-center justify-center w-full h-12 px-6 font-semibold tracking-wide text-teal-900 transition duration-200 rounded shadow-md bg-teal-accent-400 hover:bg-teal-accent-700 focus:shadow-outline focus:outline-none"
+                        class="inline-flex items-center justify-center w-full h-12 px-6 font-semibold tracking-wide text-white transition duration-200 rounded shadow-md bg-red-800 hover:underline focus:shadow-outline focus:outline-none"
                       >
-                        Get Now
+                        Order Now
                       </button>
                     </Link>
                   </div>
@@ -562,6 +562,8 @@ const PricingTiers = () => {
             </div>
           </div>
         </div>
+
+        <hr className="border-red-100"/>
       </>
     );
 }
