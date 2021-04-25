@@ -16,7 +16,7 @@ const Features = () => {
             <div className="sm:mr-4">
               <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
                 <svg
-                  className="w-12 h-12 text-deep-purple-accent-400"
+                  className="w-12 h-12"
                   stroke="currentColor"
                   viewBox="0 0 52 52"
                 >
@@ -41,7 +41,7 @@ const Features = () => {
                 <li className="flex items-start">
                   <span className="mr-1">
                     <svg
-                      className="w-5 h-5 mt-px text-deep-purple-accent-400"
+                      className="w-5 h-5 mt-px"
                       stroke="currentColor"
                       viewBox="0 0 52 52"
                     >
@@ -59,7 +59,7 @@ const Features = () => {
                 <li className="flex items-start">
                   <span className="mr-1">
                     <svg
-                      className="w-5 h-5 mt-px text-deep-purple-accent-400"
+                      className="w-5 h-5 mt-px"
                       stroke="currentColor"
                       viewBox="0 0 52 52"
                     >
@@ -77,7 +77,7 @@ const Features = () => {
                 <li className="flex items-start">
                   <span className="mr-1">
                     <svg
-                      className="w-5 h-5 mt-px text-deep-purple-accent-400"
+                      className="w-5 h-5 mt-px"
                       stroke="currentColor"
                       viewBox="0 0 52 52"
                     >
@@ -99,7 +99,7 @@ const Features = () => {
             <div className="sm:mr-4">
               <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
                 <svg
-                  className="w-12 h-12 text-deep-purple-accent-400"
+                  className="w-12 h-12"
                   stroke="currentColor"
                   viewBox="0 0 52 52"
                 >
@@ -122,7 +122,7 @@ const Features = () => {
                 <li className="flex items-start">
                   <span className="mr-1">
                     <svg
-                      className="w-5 h-5 mt-px text-deep-purple-accent-400"
+                      className="w-5 h-5 mt-px"
                       stroke="currentColor"
                       viewBox="0 0 52 52"
                     >
@@ -140,7 +140,7 @@ const Features = () => {
                 <li className="flex items-start">
                   <span className="mr-1">
                     <svg
-                      className="w-5 h-5 mt-px text-deep-purple-accent-400"
+                      className="w-5 h-5 mt-px"
                       stroke="currentColor"
                       viewBox="0 0 52 52"
                     >
@@ -158,7 +158,7 @@ const Features = () => {
                 <li className="flex items-start">
                   <span className="mr-1">
                     <svg
-                      className="w-5 h-5 mt-px text-deep-purple-accent-400"
+                      className="w-5 h-5 mt-px"
                       stroke="currentColor"
                       viewBox="0 0 52 52"
                     >
@@ -181,7 +181,7 @@ const Features = () => {
             <div className="sm:mr-4">
               <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
                 <svg
-                  className="w-12 h-12 text-deep-purple-accent-400"
+                  className="w-12 h-12"
                   stroke="currentColor"
                   viewBox="0 0 52 52"
                 >
@@ -204,7 +204,7 @@ const Features = () => {
                 <li className="flex items-start">
                   <span className="mr-1">
                     <svg
-                      className="w-5 h-5 mt-px text-deep-purple-accent-400"
+                      className="w-5 h-5 mt-px"
                       stroke="currentColor"
                       viewBox="0 0 52 52"
                     >
@@ -222,7 +222,7 @@ const Features = () => {
                 <li className="flex items-start">
                   <span className="mr-1">
                     <svg
-                      className="w-5 h-5 mt-px text-deep-purple-accent-400"
+                      className="w-5 h-5 mt-px"
                       stroke="currentColor"
                       viewBox="0 0 52 52"
                     >
@@ -240,7 +240,7 @@ const Features = () => {
                 <li className="flex items-start">
                   <span className="mr-1">
                     <svg
-                      className="w-5 h-5 mt-px text-deep-purple-accent-400"
+                      className="w-5 h-5 mt-px"
                       stroke="currentColor"
                       viewBox="0 0 52 52"
                     >
