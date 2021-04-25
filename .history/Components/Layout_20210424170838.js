@@ -5,7 +5,7 @@ import PricingTiers from './pricingTiers/PricingTiers'
 import Footer from './footer/Footer'
 import CallToAction from './CallToAction'
 import Features from './Feature'
-import Steps from './Steps'
+imporro
 
 const Layout = ({ children }) => {
    return (
@@ -17,8 +17,6 @@ const Layout = ({ children }) => {
         <Features />
 
         <PricingTiers />
-
-        <Steps />
 
         <Testimonials />
 

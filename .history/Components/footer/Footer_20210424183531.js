@@ -94,7 +94,7 @@ const Footer = () => {
             </div>
             <div className="md:max-w-md lg:col-span-2">
               <span className="text-base font-medium tracking-wide text-gray-300">
-                We accept
+                Subscribe for updates\
               </span>
               <form className="flex flex-col mt-4 md:flex-row">
                 <input
