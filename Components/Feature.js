@@ -261,7 +261,7 @@ const Features = () => {
           </div>
         </div>
       </div>
-      <hr />
+      <hr className="border-red-100"/>
     </div>
   );
 };
