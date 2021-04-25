@@ -3,6 +3,7 @@
 const CallToAction = () => {
     return (
         <>
+        <hr className="border-red-100"/>
           <section className="text-gray-600 body-font">
             <div className="container px-5 py-24 mx-auto flex items-center md:flex-row flex-col">
               <div className="flex flex-col md:pr-10 md:mb-0 mb-6 pr-0 w-full md:w-auto md:text-left text-center">

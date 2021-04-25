@@ -140,6 +140,8 @@ const Steps = () => {
           </div>
         </div>
       </section>
+
+      <hr className="border-red-100"/>
     </>
   );
 };

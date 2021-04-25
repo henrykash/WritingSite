@@ -433,8 +433,6 @@ function Index() {
           </div>
         </CarouselProvider>
       </div>
-
-      <hr className="border-red-100"/>
     </div>
   );
 }
