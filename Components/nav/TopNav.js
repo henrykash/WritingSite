@@ -22,7 +22,7 @@ const TopNav = () => {
           <ul class="flex items-center hidden space-x-8 lg:flex">
             <li class="tracking-wide text-black transition-colors duration-200 font-bold text-xl hover:underline">
               <Link
-                href="/"
+                href="pages/ordernow"
               >
                 Order Now
               </Link>
