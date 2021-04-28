@@ -3,6 +3,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { useUser } from '../lib/hooks';
+import TopNav from '../Components/nav/TopNav'
 
 const LoginPage = () => {
   const router = useRouter();
@@ -34,6 +35,7 @@ const LoginPage = () => {
 
   return (
     <>
+      <TopNav />
       <Head>
         <title>Sign in</title>
       </Head>
