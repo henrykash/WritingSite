@@ -43,7 +43,7 @@ const TopNav = () => {
             </li>
             <li class="tracking-wide text-black transition-colors duration-200 text-xl hover:underline">
               <Link
-                href="/about"
+                href="/aboutus"
               >
                 About us
               </Link>
@@ -130,7 +130,7 @@ const TopNav = () => {
                       </li>
                       <li>
                         <Link
-                          href="/"
+                          href="/pricing"
                           class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
                           Pricing
@@ -138,7 +138,7 @@ const TopNav = () => {
                       </li>
                       <li>
                         <Link
-                          href="/"
+                          href="/aboutus"
                           class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
                           About us
@@ -146,10 +146,10 @@ const TopNav = () => {
                       </li>
                       <li>
                         <Link
-                          href="/"
+                          href="/login"
                           class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
                         >
-                          Sign up
+                          Sign in
                         </Link>
                       </li>
                     </ul>
