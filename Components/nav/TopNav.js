@@ -15,8 +15,8 @@ const TopNav = () => {
               class="m-8 rounded-full "
               src="/writing.png"
               alt="Premium logo"
-              width={130}
-              height={120}
+              width={80}
+              height={75}
             />
           </Link>
           <ul class="flex items-center hidden space-x-8 lg:flex">
