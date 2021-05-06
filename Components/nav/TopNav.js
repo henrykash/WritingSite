@@ -15,7 +15,7 @@ const TopNav = () => {
               class="m-8 rounded-full "
               src="/writing.png"
               alt="Premium logo"
-              width={80}
+              width={75}
               height={75}
             />
           </Link>
