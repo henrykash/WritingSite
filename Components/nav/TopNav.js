@@ -160,6 +160,7 @@ const TopNav = () => {
           </div>
         </div>
       </div>
+      <hr />
     </div>
   );
 }
