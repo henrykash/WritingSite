@@ -1,4 +1,4 @@
-//steps for using the site
+import Link from 'next/link'
 
 const Steps = () => {
   return (
@@ -140,6 +140,12 @@ const Steps = () => {
           </div>
         </div>
       </section>
+
+      <div class="flex justify-center mb-8">
+              <Link href='/ordernow'>
+              <button class="inline-flex text-white bg-red-900 border-0 py-2 px-6 focus:outline-none hover:underline rounded text-lg">Order Now</button>
+              </Link>
+      </div>
 
       <hr className="border-red-100"/>
     </>
