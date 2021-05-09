@@ -34,7 +34,11 @@ const login = () => {
         <input type="password" placeholder="Enter your password"/>
         <input type="submit" />
         <Link href="/signup">
-          <p className="underline">Create an account instead</p>
+          <p className="underline">Create an account instead </p>
+        </Link>
+        <p>OR</p>
+        <Link href="/forgotpassword">
+        <p className="underline">Forgot password</p>
         </Link>
       </form>
       <Footer />
