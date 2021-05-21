@@ -32,7 +32,6 @@ const Homepage = () => {
       </div>
 
       <Layout />
-      
     </> 
   )
 }
