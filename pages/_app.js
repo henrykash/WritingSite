@@ -1,13 +1,14 @@
 import '../styles/index.css'
 import 'tailwindcss/tailwind.css'
-//import { AuthProvider } from '@/lib/auth';
+import {Provider} from 'next-auth/client'
 
 
-function MyApp({ Component, pageProps }) {
+const MyApp = ({ Component, pageProps }) => {
   return (
-  <div>
+    <Provider session={pageProps.session}> {/**session gets to passed in all the relative pages*/}
       <Component {...pageProps} />
-  </div>);
+    </Provider>
+  )
 }
 
 export default MyApp
