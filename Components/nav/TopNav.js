@@ -2,9 +2,11 @@ import styles from "../../styles/topnav.module.css";
 import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import {signIn, signOut, useSession} from 'next-auth/client'
 
 const TopNav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [session, loading] = useSession();
 
   return (
     <div className="bg-red-900">
@@ -48,14 +50,16 @@ const TopNav = () => {
                 About us
               </Link>
             </li>
-            <li class="tracking-wide text-black transition-colors duration-200 text-xl hover:underline">
-              <Link
-                href="/login"
-                class="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 focus:shadow-outline focus:outline-none"
-              >
-                Sign in
-              </Link>
+
+            <li class="tracking-wide text-black transition-colors duration-200 text-xl mr-0 hover:underline">
+              {!session && (
+                <>
+                Not signed in?{" "}
+                <button onclick={signIn} className="underline">Sign In</button>
+                </>
+              )}
             </li>
+
           </ul>
           <div class="lg:hidden">
             <button
