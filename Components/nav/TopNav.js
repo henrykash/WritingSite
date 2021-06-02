@@ -58,6 +58,13 @@ const TopNav = () => {
                 <button onclick={signIn} className="underline">Sign In</button>
                 </>
               )}
+              {session && (
+                <>
+                Signed in as {session.user.email}{""}
+                <button onclick={signOut}>Sign Out</button>
+                </>
+              )
+              }
             </li>
 
           </ul>
