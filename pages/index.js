@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Layout from '../Components/Layout'
+import {signIn, signOut, useSession} from 'next-auth/client'
 
 const Homepage = () => {
 
@@ -18,6 +19,7 @@ const Homepage = () => {
       setTawk()
   }
 
+  const [session, loading] = useSession();
   return (
     <>
       <div className=''>
@@ -32,6 +34,20 @@ const Homepage = () => {
       </div>
 
       <Layout />
+      <main class="tracking-wide text-black transition-colors duration-200 text-xl mr-0 hover:underline">
+        {!session && (
+          <>
+          Not signed in?{" "}
+          <button onClick={signIn} className="underline">Sign In</button>
+          </>
+        )}
+        {session && (
+          <>
+          Signed in as {session.user.email}{""}
+          <button onClick={signOut}>Sign Out</button>
+          </>
+        )}
+      </main>
 
     </> 
   )
