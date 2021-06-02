@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Layout from '../Components/Layout'
 import {signIn, signOut, useSession} from 'next-auth/client'
+import Link from 'next/link'
 
 const Homepage = () => {
 
@@ -39,6 +40,9 @@ const Homepage = () => {
           <>
           Not signed in?{" "}
           <button onClick={signIn} className="underline">Sign In</button>
+          <Link href="/secret">
+            <button>Go to the Secret Zone</button>
+          </Link>
           </>
         )}
         {session && (

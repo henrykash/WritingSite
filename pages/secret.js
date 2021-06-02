@@ -1,5 +1,6 @@
 import {useState, useEffect} from 'react';
 import {useSession} from 'next-auth/client'
+import Link from 'next/link';
 
 export default function Secret(){
     const [session, loading] = useSession();
@@ -9,9 +10,9 @@ export default function Secret(){
         const fetchData = async() => {
             const res = await fetch("/api/secret");
             const json = await res.json();
-        }
-        if(json.content){
-            setContent(json.content);
+            if(json.content){
+                setContent(json.content);
+            }
         }
         fetchData();
     }, [session]);
@@ -22,6 +23,9 @@ export default function Secret(){
         return (
             <main>
                 <h2>You first need to sign in.</h2>
+                <Link href='/login'>
+                    <button >Sign In Here</button>
+                </Link>
             </main>
         );
     }
