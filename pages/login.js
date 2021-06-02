@@ -1,9 +1,12 @@
 import Footer from '../Components/footer/Footer'
 import TopNav from '../Components/nav/TopNav'
 import Link from 'next/link'
+import {signIn, signOut, useSession} from 'next-auth/client'
 
 const login = () => {
+  const [session, loading] = useSession();
   return (
+
     <div>
       <TopNav />
       <form>
@@ -43,6 +46,7 @@ const login = () => {
       </form>
       <Footer />
     </div>
+
   )
 }
 

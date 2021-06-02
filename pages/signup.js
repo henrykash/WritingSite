@@ -9,6 +9,7 @@ const signup = () => {
   const { register, handleSubmit } = useForm();
   const onSubmit = (data) => console.log(data);
   return (
+
     <div className="h-auto">
       <TopNav />
       <form onSubmit={handleSubmit(onSubmit)}>
@@ -51,6 +52,7 @@ const signup = () => {
       </form>
       <Footer />
     </div>
+    
   )
 }
 
