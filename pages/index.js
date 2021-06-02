@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Layout from '../Components/Layout'
+import {signIn, signOut, useSession} from 'next-auth/client'
 
 const Homepage = () => {
 
@@ -17,6 +18,7 @@ const Homepage = () => {
       }
       setTawk()
   }
+  const [session, loading] = useSession();
 
   return (
     <>
@@ -32,6 +34,16 @@ const Homepage = () => {
       </div>
 
       <Layout />
+
+      <main>
+        {!session && (
+          <>
+          Not signed in <br />
+          <button onclick={signIn}>Sign In</button>
+          </>
+        )}
+      </main>
+      
     </> 
   )
 }
