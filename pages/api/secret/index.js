@@ -1,5 +1,6 @@
 import {getSession} from 'next-auth/client';
 
+//tyring out the functionality of secret paages -- one just needs to be authenticated
 export default async (req, res) => {
     const session = await getSession({req});
 

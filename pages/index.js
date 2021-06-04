@@ -42,7 +42,7 @@ const Homepage = () => {
           <button onClick={signIn} className="underline">Sign In</button>
           <br />
           <Link href="/secret">
-            <button>Go to the Secret Zone</button>
+            <button>You have to be signed in</button>
           </Link>
           </>
         )}
