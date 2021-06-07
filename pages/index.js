@@ -21,9 +21,9 @@ const Homepage = () => {
   }
 
   const [session, loading] = useSession();
+
   return (
     <>
-      <div className=''>
         <Head>
           <title>Premium workplace!</title>
           <meta name="viewport" content="initial-scale=1.0, width=device-width" />
@@ -32,7 +32,6 @@ const Homepage = () => {
           <meta name="keywords" content="Writing, Online work, Post Work, Assignments" />
           <link href="https://fonts.googleapis.com/css?family=Lato|Poppins&display=swap" rel="stylesheet"></link>
         </Head>
-      </div>
 
       <Layout />
       <main class="tracking-wide text-black transition-colors duration-200 text-xl mr-0 hover:underline">

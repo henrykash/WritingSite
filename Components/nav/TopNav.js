@@ -2,12 +2,28 @@ import styles from "../../styles/topnav.module.css";
 import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import Header from '../../Components/header/Header'
 
 const TopNav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const img = '/writing-bg.jpg';
 
   return (
-    <div className="bg-red-900">
+    <div className="image">
+      <style jsx>
+        {`
+          .image {
+            position: relative;
+            top: 0;
+            right: 0;
+            left: 0;
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+            background-image: url(${img});
+          }
+        `}
+      </style>
       <div className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
         <div className="relative flex items-center justify-between">
           <Link href="/" className="inline-flex items-center">
@@ -20,35 +36,35 @@ const TopNav = () => {
             />
           </Link>
           <ul class="flex items-center hidden space-x-8 lg:flex">
-            <li class="tracking-wide text-black transition-colors duration-200 font-bold text-xl hover:underline">
+            <li class="tracking-wide text-white transition-colors duration-200 font-bold text-xl hover:underline">
               <Link
                 href="/ordernow"
               >
                 Order Now
               </Link>
             </li>
-            <li class="tracking-wide text-black transition-colors duration-200 text-xl hover:underline">
+            <li class="tracking-wide text-white transition-colors duration-200 text-xl hover:underline">
               <Link
                 href="/"
               >
                 Features
               </Link>
             </li>
-            <li class="tracking-wide text-black transition-colors duration-200 text-xl hover:underline">
+            <li class="tracking-wide text-white transition-colors duration-200 text-xl hover:underline">
               <Link
                 href="/pricing"
               >
                 Pricing
               </Link>
             </li>
-            <li class="tracking-wide text-black transition-colors duration-200 text-xl hover:underline">
+            <li class="tracking-wide text-white transition-colors duration-200 text-xl hover:underline">
               <Link
                 href="/aboutus"
               >
                 About us
               </Link>
             </li>
-            <li class="tracking-wide text-black transition-colors duration-200 text-xl hover:underline">
+            <li class="tracking-wide text-white transition-colors duration-200 text-xl hover:underline">
               <Link
                 href="/login"
               >
@@ -159,6 +175,7 @@ const TopNav = () => {
           </div>
         </div>
       </div>
+      <Header />
       <hr />
     </div>
   );

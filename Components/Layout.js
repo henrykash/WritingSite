@@ -1,5 +1,4 @@
-import TopNav from './nav/TopNav'
-import Header from './header/Header'
+import TopHeader from './nav/TopNav'
 import Testimonials from './testimonials/Testimonials'
 import PricingTiers from './pricingTiers/PricingTiers'
 import Footer from './footer/Footer'
@@ -10,9 +9,7 @@ import Steps from './Steps'
 const Layout = ({ children }) => {
    return (
        <>
-        <TopNav />
-
-        <Header />
+        <TopHeader />
 
         <Features />
 
