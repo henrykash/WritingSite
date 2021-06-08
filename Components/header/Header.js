@@ -19,7 +19,7 @@ const Header = () => {
                   </Link>
 
                   <Link href="/howitworks">
-                  <button id="howitworks" class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:underline rounded text-lg">How it Works</button>
+                  <button id="howitworks" class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:underline rounded text-lg">Get Started Now</button>
                   </Link>
                 </div>
               </div>
