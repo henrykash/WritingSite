@@ -48,7 +48,7 @@ function Index() {
                           <img
                             src="https://cdn.tuk.dev/assets/photo-1566753323558-f4e0952af115.jfif"
                             alt
-                            className="h-full w-full object-cover rounded-full overflow-hidden"
+                            className="h-full w-full object-cover rounded-full"
                           />
                         </div>
                         <p className="text-base text-gray-600 leading-8">
@@ -86,7 +86,7 @@ function Index() {
                           <img
                             src="https://cdn.tuk.dev/assets/photo-1548958921-c5c0fe1b307d.jfif"
                             alt
-                            className="h-full w-full object-cover rounded-full overflow-hidden"
+                            className="h-full w-full object-cover rounded-full"
                           />
                         </div>
                         <p className="text-base text-gray-600 leading-8">

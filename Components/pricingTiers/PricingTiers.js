@@ -54,7 +54,7 @@ const PricingTiers = () => {
                       Starter Plan
                     </p>
                     <div class="flex items-center justify-center">
-                      <p class="mr-2 text-5xl font-semibold text-white lg:text-6xl">
+                      <p class="mr-2 text-5xl font-semibold text-white lg:text-6xl overflow-hidden">
                         $39
                       </p>
                       <p class="text-lg text-gray-500">/ month</p>
@@ -182,7 +182,7 @@ const PricingTiers = () => {
                       Pro Plan
                     </p>
                     <div class="flex items-center justify-center">
-                      <p class="mr-2 text-5xl font-semibold text-white lg:text-6xl">
+                      <p class="mr-2 text-5xl font-semibold text-white lg:text-6xl overflow-hidden">
                         $59
                       </p>
                       <p class="text-lg text-gray-500">/ month</p>
@@ -310,7 +310,7 @@ const PricingTiers = () => {
                       Pro Plan
                     </p>
                     <div class="flex items-center justify-center">
-                      <p class="mr-2 text-5xl font-semibold text-white lg:text-6xl">
+                      <p class="mr-2 text-5xl font-semibold text-white lg:text-6xl overflow-hidden">
                         $59
                       </p>
                       <p class="text-lg text-gray-500">/ month</p>
@@ -438,7 +438,7 @@ const PricingTiers = () => {
                       Pro Plan
                     </p>
                     <div class="flex items-center justify-center">
-                      <p class="mr-2 text-5xl font-semibold text-white lg:text-6xl">
+                      <p class="mr-2 text-5xl font-semibold text-white lg:text-6xl overflow-hidden">
                         $59
                       </p>
                       <p class="text-lg text-gray-500">/ month</p>
