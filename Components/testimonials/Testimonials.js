@@ -6,19 +6,17 @@ import {
   ButtonBack,
   ButtonNext,
 } from "pure-react-carousel";
-function Index() {
+
+const Testimonials = () => {
   return (
     <div>
       <div className="container mx-auto pt-16">
-        {/* PLease install Pure React Carousel using "npm i pure-react-carousel" in order to use this component */}
         <div className="pb-12">
           <h2 className="text-3xl xl:text-4xl font-extrabold text-gray-800 mx-auto text-center xl:text-left pb-4">
             Hear From Our Customers
           </h2>
           <p className="text-xl text-gray-600 xl:w-3/4 w-11/12 mx-auto xl:mx-0 text-center sm:text-left">
-            I just wanted to share a quick note and let you know that you guys
-            do a really good job. I’m glad I decided to work with you. It’s
-            really great how easy your websites are to update and manage.
+            See how excited our top fans are...
           </p>
         </div>
         <CarouselProvider
@@ -52,9 +50,8 @@ function Index() {
                           />
                         </div>
                         <p className="text-base text-gray-600 leading-8">
-                          It really saves me time and effort. Chamer is exactly
-                          what our business has been lacking. Chamer was worth a
-                          fortune to my company.
+                          It really saves me time and effort. Gets Work Done is exactly
+                          what busy stuents would need to graduate.
                         </p>
                         <div className="flex justify-end mt-2">
                           <svg
@@ -150,7 +147,7 @@ function Index() {
                 </div>
               </figure>
             </Slide>
-            <Slide index={2}>
+            {/*<Slide index={2}>
               {" "}
               <figure className="py-4">
                 <div className="flex flex-wrap justify-around">
@@ -391,7 +388,7 @@ function Index() {
                   </div>
                 </div>
               </figure>
-            </Slide>
+            </Slide>*/}
           </Slider>
           <div className="cursor-pointer flex justify-center pt-4 pb-8 sm:pt-8 md:pt-8 lg:pt-8 xl:pt-12">
             <ButtonBack className="cursor-pointer focus:outline-none">
@@ -437,4 +434,4 @@ function Index() {
   );
 }
 
-export default Index;
+export default Testimonials;
