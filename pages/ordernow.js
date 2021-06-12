@@ -8,9 +8,9 @@ const orderNow = () => {
         <>
             <TopNav />
             <main>
-                <PlaceOrder />
+                {/*<PlaceOrder />
                 <PricingDetails />
-                <Authentication />
+                <Authentication />*/}
             </main>
             <Footer />
         </>
