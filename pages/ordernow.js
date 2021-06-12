@@ -7,7 +7,11 @@ const orderNow = () => {
     return (
         <>
             <TopNav />
-            
+            <main>
+                <PlaceOrder />
+                <PricingDetails />
+                <Authentication />
+            </main>
             <Footer />
         </>
     )

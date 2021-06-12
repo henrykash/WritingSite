@@ -16,6 +16,8 @@
     "bcrypt": "^5.0.1",
     "connect-mongo": "^4.4.1",
     "cookie": "^0.4.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
     "next": "10.0.7",
     "next-auth": "^3.24.1",
     "next-firebase-auth": "^0.13.0-alpha.0",
@@ -39,6 +41,7 @@
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "sqlite3": "^5.0.2",
+    "stripe": "^8.154.0",
     "swr": "^0.5.5",
     "typed.js": "^2.0.12"
   },
