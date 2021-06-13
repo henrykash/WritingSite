@@ -45,7 +45,6 @@ const LogIn = () => {
             border-radius: 1px;
             border: 1px solid red;
             padding: 5px 10px;
-            
           },
           button[type="submit"],
             input[type="submit"] {
