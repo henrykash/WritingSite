@@ -60,22 +60,22 @@ const Signup = () => {
           <p className="bold text-3xl">Create Your Account</p>
             <div>
               <label htmlFor="username">USERNAME: </label>
-              <input {...register("username")}/>
+              <input {...register("username")} placeholder="Your username should be unique"/>
             </div>
 
             <div>
               <label htmlFor="email">EMAIL ADDRESS: </label>
-              <input {...register("email address")} />
+              <input {...register("email address")} placeholder="Enter your email address"/>
             </div>
 
             <div>
               <label htmlFor="password">INPUT PASSWORD:</label>
-              <input {...register("password")} />
+              <input {...register("password")} placeholder="Enter your password"/>
             </div>
 
             <div>
               <label htmlFor="confirm-password">CONFIRM YOUR PASSWORD:</label>
-              <input {...register("confirm password")} />
+              <input {...register("confirm password")} placeholder="Re-enter your password" />
             </div>
 
             <div>

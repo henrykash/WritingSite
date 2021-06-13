@@ -61,12 +61,12 @@ const LogIn = () => {
             
             <div>
               <label htmlFor="email">Email Address</label>
-              <input {...register("email address")} />
+              <input {...register("email address")} placeholder="Enter your email address"/>
             </div>
 
             <div>
               <label htmlFor="password">Password:</label>
-              <input {...register("password")} />
+              <input {...register("password")} placeholder="Input your password" />
             </div>
 
             <div>
