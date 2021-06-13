@@ -66,7 +66,7 @@ const LogIn = () => {
 
             <div>
               <Link href="/">
-                <button type="submit" className="bg-gray-500 hover:underline">Log In</button>
+                <button type="submit" className="bg-gray-500 hover:underline">Reset Password</button>
               </Link>
             </div>
 

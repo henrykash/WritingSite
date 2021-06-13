@@ -1,16 +1,16 @@
 import React from 'react'
-import TopNav from '../Components/nav/TopNav'
-import PricingTiers from '../Components/pricingTiers/PricingTiers'
+import PlaceOrder from '../Components/ordernow/PlaceOrder'
+import ComputePrice from '../Components/ordernow/ComputePrice'
+import CheckoutAuth from '../Components/ordernow/CheckoutAuth'
 import Footer from '../Components/footer/Footer'
 
 const orderNow = () => {
     return (
         <>
-            <TopNav />
             <main>
-                {/*<PlaceOrder />
-                <PricingDetails />
-                <Authentication />*/}
+                <PlaceOrder />
+                <ComputePrice />
+                <CheckoutAuth />
             </main>
             <Footer />
         </>
