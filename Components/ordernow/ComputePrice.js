@@ -2,6 +2,7 @@ import Link from 'next/link';
 
 const ComputePrice = () => {
     if(typeof window !== 'undefined'){
+        window.onload = function (){
         const minusButton = document.getElementById('minus');
         const plusButton = document.getElementById('plus');
         const inputField = document.getElementById('input');
@@ -17,6 +18,7 @@ const ComputePrice = () => {
         const currentValue = Number(inputField.value) || 0;
         inputField.value = currentValue + 1;
         });
+    }
     }
     return(
         <>
@@ -39,6 +41,7 @@ const ComputePrice = () => {
             }
            `}
         </style>
+        <h2 className="underline">Pricing Details</h2>
             <label>Input your number of pages:</label>
             <div className="py-7">
                 <button id="minus">−</button>

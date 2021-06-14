@@ -1,7 +1,7 @@
 import React from 'react'
 import PlaceOrder from '../Components/ordernow/PlaceOrder'
 import ComputePrice from '../Components/ordernow/ComputePrice'
-import CheckoutAuth from '../Components/ordernow/CheckoutAuth'
+import CheckoutButton from '../Components/ordernow/CheckoutButton'
 import Footer from '../Components/footer/Footer'
 
 const orderNow = () => {
@@ -12,7 +12,7 @@ const orderNow = () => {
 
                 <ComputePrice />
 
-                <CheckoutAuth />
+                <CheckoutButton />
             </main>
             <Footer />
         </>
