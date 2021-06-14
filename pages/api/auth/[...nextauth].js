@@ -6,8 +6,8 @@ const options = { //configuring the relative provider options
         Providers.GitHub({
             clientID : process.env.GITHUB_ID,
             clientSecret : process.env.GITHUB_SECRET
-        }),
-        Providers.Credentials({
+        })
+        /*Providers.Credentials({
             name: 'Custom Provider',
             credentials: {
                 username: {label: "Email", type: "text", placeholder: "janedoe@gmail.com"},
@@ -18,7 +18,7 @@ const options = { //configuring the relative provider options
                 return user;
             }
         })
-        /*Providers.Google({                                    //If time allows, I implement the relative Google Provider
+        Providers.Google({                                    //If time allows, I implement the relative Google Provider
             clientId: process.env.GOOGLE_CLIENT_ID,
             clientSecret: process.env.GOOGLE_CLIENT_SECRET
           }),
