@@ -143,19 +143,34 @@ const PlaceOrder = () => {
             <label>Title:</label>
             <input type="text" id="Order title" name="Order title"/>
 
-            <label>Any Paper Instructions:</label>
-            <input type="textarea" id="Paper Instructions" name="Paper Instructions"/>
+            <label>Input the Paper Instructions:</label>
+            <textarea id="Paper Instructions" name="Paper Instructions" rows="4" cols="50" className="py-7">
+            </textarea>
 
             <label>Upload relevant materials</label>
             <input type="file" name="File Uploads" id="File Uploads" />
 
-            <label>Preferred paper format:</label>
-            <input type="radio" name="Paper Format" value="APA format" />
-            <input type="radio" name="Paper Format" value="MLA format" />
-            <input type="radio" name="Paper Format" value="Havard format" />
-            <input type="radio" name="Paper Format" value="Other" />
+            <label>Select Preferred paper format:</label>
+            <div className="flex flex-row" >
+                <Link href="/">
+                    <button value="submit" className="hover:bg-gray-500">APA</button>
+                </Link>
+
+                <Link href="/">
+                    <button value="submit" className="hover:bg-gray-500" selected>MLA</button>
+                </Link>
+
+                <Link href="/">
+                    <button value="submit" className="hover:bg-gray-500">Chicago</button>
+                </Link>
+
+                <Link href="/">
+                    <button value="submit" className="hover:bg-gray-500">Other</button>
+                </Link>
+            </div>
         </div>
     </form>
+    <hr className="border-red-100"/>
     </>
     )
 }

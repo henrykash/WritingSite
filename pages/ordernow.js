@@ -9,7 +9,9 @@ const orderNow = () => {
         <>
             <main>
                 <PlaceOrder />
+
                 <ComputePrice />
+
                 <CheckoutAuth />
             </main>
             <Footer />
