@@ -1,7 +1,7 @@
 {
   "name": "node_app",
   "version": "1.0.0",
-  "description": "",
+  "description": "The SSR side of our application",
   "main": "server.js",
   "scripts": {
     "start": "node server.bundle.js",
