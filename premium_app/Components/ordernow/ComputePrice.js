@@ -51,32 +51,17 @@ const ComputePrice = () => {
 
             <label>Word Spacing:</label>
             <div className="flex flex-row" >
-                <Link href="/">
-                    <button value="submit" className="hover:bg-gray-500">Double Spaced</button>
-                </Link>
-
-                <Link href="/">
-                    <button value="submit" className="hover:bg-gray-500" selected>Single Spaced</button>
-                </Link>
+                <input type="radio" className="hover:bg-gray-500" value="double-spaced" name="Paper format"/>Double-spaced
+                <input type="radio" className="hover:bg-gray-500" value="single-spaced" name="Paper format"/>Single-spaced
             </div>
 
             <label>Currency:</label>
             <div className="flex flex-row" >
-                <Link href="/">
-                    <button value="submit" className="hover:bg-gray-500">USD</button>
-                </Link>
+                <input type="radio" className="hover:bg-gray-500" value="USD" name="currency"/>USD
 
-                <Link href="/">
-                    <button value="submit" className="hover:bg-gray-500" selected>EURO</button>
-                </Link>
+                <input type="radio" className="hover:bg-gray-500" value="Euro" name="currency"/>Euro
 
-                <Link href="/">
-                    <button value="submit" className="hover:bg-gray-500" selected>GBP</button>
-                </Link>
-
-                <Link href="/">
-                    <button value="submit" className="hover:bg-gray-500" selected>KSH</button>
-                </Link>
+                <input type="radio" className="hover:bg-gray-500" value="KSH" name="currency"/>KSH
 
             </div>
 

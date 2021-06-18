@@ -3,7 +3,7 @@ import PlaceOrder from '../Components/ordernow/PlaceOrder'
 import ComputePrice from '../Components/ordernow/ComputePrice'
 import CheckoutButton from '../Components/ordernow/CheckoutButton'
 import Footer from '../Components/footer/Footer'
-import FloatingCalcTool from '../Components/calcTool/FloatingCalcTool'
+import FloatingCalcTool from '../Components/ordernow/FloatingCalcTool'
 
 const orderNow = () => {
     return (

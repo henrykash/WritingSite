@@ -161,7 +161,7 @@ const PricingTiers = () => {
                     </li>
                   </ul>
                   <div>
-                    <Link href="checkout">
+                    <Link href="ordernow">
                       <button
                         type="submit"
                         class="inline-flex items-center justify-center w-full h-12 px-6 font-bold tracking-wide text-white transition duration-200 rounded shadow-md bg-red-800 hover:underline focus:shadow-outline focus:outline-none"
@@ -289,7 +289,7 @@ const PricingTiers = () => {
                     </li>
                   </ul>
                   <div>
-                    <Link href="/checkout">
+                    <Link href="/ordernow">
                       <button
                         type="submit"
                         class="inline-flex items-center justify-center w-full h-12 px-6 tracking-wide text-white font-bold transition duration-200 rounded shadow-md bg-red-800 hover:underline focus:shadow-outline focus:outline-none"
@@ -417,7 +417,7 @@ const PricingTiers = () => {
                     </li>
                   </ul>
                   <div>
-                    <Link href="/checkout">
+                    <Link href="/ordernow">
                       <button
                         type="submit"
                         class="inline-flex items-center justify-center w-full h-12 px-6 font-semibold text-white tracking-wide text-white transition duration-200 rounded shadow-md bg-red-800 hover:underline focus:shadow-outline focus:outline-none"
@@ -545,7 +545,7 @@ const PricingTiers = () => {
                     </li>
                   </ul>
                   <div>
-                    <Link href="/checkout">
+                    <Link href="/ordernow">
                       <button
                         type="submit"
                         class="inline-flex items-center justify-center w-full h-12 px-6 font-semibold tracking-wide text-white transition duration-200 rounded shadow-md bg-red-800 hover:underline focus:shadow-outline focus:outline-none"

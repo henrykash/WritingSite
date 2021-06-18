@@ -27,21 +27,13 @@ const PlaceOrder = () => {
         <div className="flex flex-col">
             <label>Academic level:</label>
             <div className="flex flex-row" >
-                <Link href="/">
-                    <button value="submit" className="hover:bg-gray-500">High School</button>
-                </Link>
+                <input type="radio" className="hover:bg-gray-500" value="High School" name="Academic Level" />High School
 
-                <Link href="/">
-                    <button value="submit" className="hover:bg-gray-500" selected>Undergraduate</button>
-                </Link>
+                <input type="radio" className="hover:bg-gray-500" value="Undergraduate" name="Academic Level" />Undergraduate
 
-                <Link href="/">
-                    <button value="submit" className="hover:bg-gray-500">Masters</button>
-                </Link>
+                <input type="radio" className="hover:bg-gray-500" value="Masters" name="Academic Level" />Masters
 
-                <Link href="/">
-                    <button value="submit" className="hover:bg-gray-500">PhD</button>
-                </Link>
+                <input type="radio" className="hover:bg-gray-500" value="PhD" name="Academic Level"/>PhD
             </div>
 
             <label>Type of paper: </label>
@@ -152,21 +144,14 @@ const PlaceOrder = () => {
 
             <label>Select Preferred paper format:</label>
             <div className="flex flex-row" >
-                <Link href="/">
-                    <button value="submit" className="hover:bg-gray-500">APA</button>
-                </Link>
 
-                <Link href="/">
-                    <button value="submit" className="hover:bg-gray-500" selected>MLA</button>
-                </Link>
+                <input type="radio" className="hover:bg-gray-500" value="APA" name="Paper format"/>APA
 
-                <Link href="/">
-                    <button value="submit" className="hover:bg-gray-500">Chicago</button>
-                </Link>
+                <input type="radio" className="hover:bg-gray-500" value="MLA" name="Paper format"/>MLA
 
-                <Link href="/">
-                    <button value="submit" className="hover:bg-gray-500">Other</button>
-                </Link>
+                <input type="radio" className="hover:bg-gray-500" value="Chicago" name="Paper format"/>Chicago
+
+                <input type="radio" className="hover:bg-gray-500" value="Other" name="Paper format"/>Other
             </div>
         </div>
     </form>
