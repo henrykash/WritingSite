@@ -1,12 +1,12 @@
-import useUser from '../lib/useUser'
-import Layout from '../components/Layout'
+//import useUser from '../lib/useUser'
+//import Layout from '../components/Layout'
 
-const Profile = () => {
+//const Profile = () => {
   // Fetch the user client-side
-  const { user } = useUser({ redirectTo: '/login' })
+  {/**const { user } = useUser({ redirectTo: '/login' })
 
   // Server-render loading state
-  if (!user || user.isLoggedIn === false) {
+  /*if (!user || user.isLoggedIn === false) {
     return <Layout>Loading...</Layout>
   }
 
@@ -16,6 +16,15 @@ const Profile = () => {
       <h1>Your Profile</h1>
       <pre>{JSON.stringify(user, null, 2)}</pre>
     </Layout>
+  )
+}
+
+//export default Profile*/}
+
+const Profile = () => {
+  return (
+    <>
+    </>
   )
 }
 
