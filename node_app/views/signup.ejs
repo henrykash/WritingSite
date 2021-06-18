@@ -1,0 +1,21 @@
+<h2> <%= name %> is happy to see you here! Let's get your work done:)</h2>
+<form action="/signup" method="POST" className="flex flex-col">
+    <div>
+        <label for="username">Username:</label>
+        <input type="text" name="username" id="username" required/>
+    </div>
+    <div>
+        <label for="email">Email Address:</label>
+        <input type="email" name="email" id="email" required/>
+    </div>
+    <div>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" required/>
+    </div>
+    <div>
+        <label for="confirmpassword">Confirm Password:</label>
+        <input type="password" name="confirmpassword" id="confirmpassword" required/>
+    </div>
+        <button>Create an Account</button>
+</form>
+<a href="/login" className="underline">I already have an account.</a>
