@@ -17,7 +17,7 @@ const floatingCalcTool = () => {
     </style>
 
     <main>
-      To be paid : 
+    
     </main>
     </>
   )

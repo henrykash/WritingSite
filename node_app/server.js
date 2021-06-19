@@ -1,30 +1,41 @@
-const express = require('express');
-const app = express(),
-      port = 3080;
+const express = require('express')
+const mongoose = require('mongoose')
+const cors = require('cors')
+const passport = require('passport')
+const passportLocal = require('passport-local').Strategy
+const cookieParser = require('cookieparser')
+const bcrypt = require('bcryptjs')
+const session = require('express-session')
+const bodyParser = require('body-parser')
 
-const { urlencoded } = require('express')
+const app = express()
 
-// place holder for the data
-const users = [];
+//middlewares
+app.use(express.json())
+app.use(express.urlencoded({extended: true}))
+app.use(cors({ //this is the configuration object - this is so crucial
+    origin: 'http://localhost:3000', //location of next app we are usingg - Change it to domain address?
+    credentials: true
+}))
+app.use(session({
+    secret: 'secret code',
+    resave: true,
+    saveUninitialized: true
+}))
+app.use(cookieParser("secret code"))
 
-app.use(express.urlencoded({extended: true}));
+//relative routes
+app.post('/login', (req, res)=> {
+    console.log(req.body)
+})
+app.post('/register', (req, res)=> {
+    console.log(req.body)
+})
+app.get('/user', (req, res)=> {
+    console.log(req.body)
+})
 
-app.get('/api/users', (req, res) => {
-  console.log('api/users called!!!!')
-  res.json(users);
-});
-
-app.post('/api/user', (req, res) => {
-  const user = req.body.user;
-  console.log('Adding user::::::::', user);
-  users.push(user);
-  res.json("user addedd");
-});
-
-app.get('/', (req,res) => {
-    res.send('App Works !!!!');
-});
-
-app.listen(port, () => {
-    console.log(`Server listening on the port::${port}`);
-});
+//start server
+app.listen(3080, ()=> {
+    console.log('Server has started!')
+})

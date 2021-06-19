@@ -4,14 +4,22 @@
   "description": "The SSR side of our application",
   "main": "server.js",
   "scripts": {
-    "start": "node server.bundle.js",
+    "start": "node server.js",
     "build": "webpack",
     "devStart": "nodemon ./server.js localhost:3080"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cookieparser": "^0.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "mongoose": "^5.12.14",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.7",

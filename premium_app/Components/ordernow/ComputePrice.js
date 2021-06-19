@@ -42,10 +42,11 @@ const ComputePrice = () => {
            `}
         </style>
         <h2 className="underline">Pricing Details</h2>
+        {/**The number of pages should initiate a dynamic change in the floating calc Tool*/}
             <label>Input your number of pages:</label>
             <div className="py-7">
                 <button id="minus">−</button>
-                <input type="number" value="0" id="input" className="text-center"/>
+                <input value="0" id="input" className="text-center" id="pagenumber"/>
                 <button id="plus">+</button>
             </div>
 
@@ -105,6 +106,7 @@ const ComputePrice = () => {
                     </label>
                 </div>
 
+                {/**Each level of proficiency gets to have the relative standard price*/}
             <label>Select Writer's Proficiency:</label>
             <div className="flex flex-row">
                 <div>
