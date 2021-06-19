@@ -7,16 +7,16 @@ const Signup = () => {
 
     const register = () => {
         axios({
-            method: 'post',
+            method: 'POST',
             data: {
                 username: registerUsername,
                 password: registerPassword
             },
             withCredentials: true,
-            url: 'http://localhost:3000/signup',
+            url: 'http://localhost:3080/signup',
         }).then((res) => console.log(res))
     }
-    
+
     return (
         <>
         <div>

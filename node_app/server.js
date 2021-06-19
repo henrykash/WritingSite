@@ -10,6 +10,13 @@ const bodyParser = require('body-parser')
 
 const app = express()
 
+//connecting mongodb
+mongoose.connect("mongodb+srv://nyambura00:nyambura@mongodb@cluster0.xwxfs.mongodb.net/getsworkdone.com?retryWrites=true&w=majority", {
+    useNewUrlParser: true,
+    useUnifiedTopology: true
+},
+() => console.log('mongoose is successfully connected!'))
+
 //middlewares
 app.use(express.json())
 app.use(express.urlencoded({extended: true}))
@@ -32,7 +39,7 @@ app.post('/register', (req, res)=> {
     console.log(req.body)
 })
 app.get('/user', (req, res)=> {
-    console.log(req.body)
+    res.send(req.user);
 })
 
 //start server
