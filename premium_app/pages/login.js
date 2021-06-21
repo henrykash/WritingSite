@@ -13,7 +13,7 @@ const Login = () => {
                 password: loginPassword
             },
             withCredentials: true,
-            url: 'http://localhost:3080/login', //location of the backend login route
+            url: 'http://localhost:3000/login', //location of the backend login route
         }).then((res) => console.log(res))
     }
 

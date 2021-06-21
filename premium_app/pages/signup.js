@@ -13,7 +13,7 @@ const Signup = () => {
                 password: registerPassword
             },
             withCredentials: true,
-            url: 'http://localhost:3080/signup',
+            url: 'http://localhost:3000/signup',
         }).then((res) => console.log(res))
     }
 

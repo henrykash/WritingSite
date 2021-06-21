@@ -24,7 +24,7 @@ const Homepage = () => {
         <Head>
           <title>Premium workplace!</title>
           <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-          <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+          <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
           <meta name="description" content="Online Writing, Get work Done, Get remote work done" />
           <meta name="keywords" content="Writing, Online work, Post Work, Assignments" />
           <link href="https://fonts.googleapis.com/css?family=Lato|Poppins&display=swap" rel="stylesheet"></link>
