@@ -3,7 +3,7 @@ import Link from 'next/link';
 const PlaceOrder = () => {
     return (
     <>
-    <form>
+    <form className="grid justify-items-center">
         <h2 className="underline">Place Order</h2>
         <style jsx>
             {`
@@ -132,11 +132,11 @@ const PlaceOrder = () => {
                     </select>
                 </div>
 
-            <label>Title:</label>
-            <input type="text" id="Order title" name="Order title"/>
+                <label>Title:</label>
+                <input type="text" id="Order title" name="Order title" className="border border-gray-500"/>
 
             <label>Input the Paper Instructions:</label>
-            <textarea id="Paper Instructions" name="Paper Instructions" rows="4" cols="50" className="py-7">
+            <textarea id="Paper Instructions" name="Paper Instructions" rows="4" cols="50" className="py-7" className="border border-gray-500">
             </textarea>
 
             <label>Upload relevant materials</label>

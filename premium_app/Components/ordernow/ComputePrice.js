@@ -22,7 +22,7 @@ const ComputePrice = () => {
     }
     return(
         <>
-        <main>
+        <main className="grid justify-items-center">
         <style jsx>
             {`
             button{
