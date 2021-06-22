@@ -8,7 +8,7 @@ import FloatingCalcTool from '../Components/ordernow/FloatingCalcTool'
 const orderNow = () => {
     return (
         <>
-            <main>
+            <main className="min-w-full">
                 <PlaceOrder />
 
                 <ComputePrice />

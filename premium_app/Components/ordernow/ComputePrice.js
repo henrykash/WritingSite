@@ -23,6 +23,7 @@ const ComputePrice = () => {
     return(
         <>
         <main className="grid justify-items-center">
+        <h2>Pricing Details</h2>
         <style jsx>
             {`
             button{
@@ -39,9 +40,11 @@ const ComputePrice = () => {
                 border-radius: 5px;
                 width: fit-content;
             }
+            h2{
+                border: 2px solid #538395;
+            }
            `}
         </style>
-        <h2 className="underline">Pricing Details</h2>
         {/**The number of pages should initiate a dynamic change in the floating calc Tool*/}
             <label>Input your number of pages:</label>
             <div className="py-7">

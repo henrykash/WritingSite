@@ -44,7 +44,7 @@ const CheckoutButton = () => {
 
     return (
         <>
-            <main>
+            <main className="align-center">
                 <PayPalButtons
                     style={{
                         color: "blue",

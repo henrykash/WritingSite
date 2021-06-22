@@ -1,10 +1,8 @@
-import Link from 'next/link';
-
 const PlaceOrder = () => {
     return (
     <>
     <form className="grid justify-items-center">
-        <h2 className="underline">Place Order</h2>
+        <h2>Place Order</h2>
         <style jsx>
             {`
             button{
@@ -20,6 +18,9 @@ const PlaceOrder = () => {
                 white-space: nowrap;
                 border-radius: 5px;
                 width: fit-content;
+            }
+            h2{
+                border: 2px solid #538395;
             }
            `}
         </style>
