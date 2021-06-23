@@ -21,8 +21,8 @@ const floatingCalcTool = () => {
       </div>
 
       <div>
-        Total Price
-        <div className="bg-red-800"></div>
+        Total Price:
+        <div className="bg-red-800 underline" id="TotalPrice"></div>
       </div>
 
       <div>
