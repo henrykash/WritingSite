@@ -15,9 +15,9 @@ const floatingCalcTool = () => {
       </div>
 
       <div>
-        <div>NoOfPages</div>
+        <div id="PageNumber">NoOfPages</div>
         * 
-        <div>Custom Standard Price</div>
+        <div id="StandardPrice">Custom Standard Price</div>
       </div>
 
       <div>
