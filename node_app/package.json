@@ -2,11 +2,11 @@
   "name": "node_app",
   "version": "1.0.0",
   "description": "The SSR side of our application",
-  "main": "server.js",
+  "main": "app.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node app.js",
     "build": "webpack",
-    "devStart": "nodemon ./server.js localhost:3080"
+    "devStart": "nodemon ./app.js localhost:3080"
   },
   "author": "",
   "license": "ISC",
@@ -18,7 +18,6 @@
     "express": "^4.17.1",
     "express-session": "^1.17.2",
     "mongoose": "^5.12.14",
-    "next-connect": "^0.10.1",
     "passport": "^0.4.1",
     "passport-local": "^1.0.0"
   },
