@@ -1,24 +1,35 @@
-
 const floatingCalcTool = () => {
   return(
-    <>
-    <style jsx>
-      {`
-      *{
-        border: 2px solid rgba(0,0,100,.09);
-        border-radius: 4px;
-        background-color: #f0fcff
-        color: #405d6c;
-        padding: 20px;
-        margin-top: 10%;
-      }
-      `}
-    </style>
+    <div>
+      <div>
+        Academic Level
+      </div>
+      <hr />
 
-    <main className="overflow-hidden float-right relative content-center sticky">
-      This is the Floating Calc Session
-    </main>
-    </>
+      <div>
+        Type of Paper
+      </div>
+
+      <div>
+        Subject Area
+      </div>
+
+      <div>
+        <div>NoOfPages</div>
+        * 
+        <div>Custom Standard Price</div>
+      </div>
+
+      <div>
+        Total Price
+        <div className="bg-red-800"></div>
+      </div>
+
+      <div>
+        <input type="text" placeholder="Enter Coupon Code"/><span>
+        <button type="submit" className="inline-flex text-white bg-red-900 border-0 py-2 px-6 focus:outline-none hover:underline rounded text-lg">Apply Coupon Code</button></span>
+      </div>
+    </div>
   )
 }
 

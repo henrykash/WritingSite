@@ -2,7 +2,7 @@ const PlaceOrder = () => {
     return (
     <>
     <form className="grid justify-items-center">
-        <h2>Place Order</h2>
+        <h2>1. Place Order</h2>
         <style jsx>
             {`
             button{
@@ -27,7 +27,7 @@ const PlaceOrder = () => {
 
         <div className="flex flex-col">
             <label>Academic level:</label>
-            <div className="flex flex-row" >
+            <div className="flex flex-row" id="AcademicLevel">
                 <input type="radio" className="hover:bg-gray-500" value="High School" name="Academic Level" />High School
 
                 <input type="radio" className="hover:bg-gray-500" value="Undergraduate" name="Academic Level" />Undergraduate
@@ -38,7 +38,7 @@ const PlaceOrder = () => {
             </div>
 
             <label>Type of paper: </label>
-                <div>
+                <div id="PaperType">
                     <select name="Type of paper" id="Paper Types">
                         <option value="1#Article (Any Type)">Article (Any Type)</option>
                         <option value="1#Assignment">Assignment</option>
@@ -87,7 +87,7 @@ const PlaceOrder = () => {
                 </div>
 
             <label>Subject Area:</label>
-                <div>
+                <div id="SubjectArea">
                     <select>
                         <option value="1#Any" selected="selected"> Select Subject </option>
                         <option value="1#Archaeology">Archaeology</option>

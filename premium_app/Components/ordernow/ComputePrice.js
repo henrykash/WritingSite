@@ -1,7 +1,6 @@
 import Link from 'next/link';
 
 const ComputePrice = () => {
-    if(typeof window !== 'undefined'){
         window.onload = function (){
         const minusButton = document.getElementById('minus');
         const plusButton = document.getElementById('plus');
@@ -19,11 +18,10 @@ const ComputePrice = () => {
         inputField.value = currentValue + 1;
         });
     }
-    }
     return(
         <>
         <main className="grid justify-items-center">
-        <h2>Pricing Details</h2>
+        <h2>2. Pricing Details</h2>
         <style jsx>
             {`
             button{
@@ -47,7 +45,7 @@ const ComputePrice = () => {
         </style>
         {/**The number of pages should initiate a dynamic change in the floating calc Tool*/}
             <label>Input your number of pages:</label>
-            <div className="py-7">
+            <div className="py-7" id="PageNumbers">
                 <button id="minus">−</button>
                 <input value="0" id="input" className="text-center" id="pagenumber"/>
                 <button id="plus">+</button>
@@ -71,42 +69,7 @@ const ComputePrice = () => {
 
             <label>Set deadline:</label>
                 <div>
-                    <label>
-                    <input type="radio" value="" name="order_deadline" />3 Hours
-                    </label>
-                    <label>
-                    <input type="radio" value="" name="order_deadline" />6 Hours
-                    </label>
-                    <label>
-                    <input type="radio" value="" name="order_deadline" />12 Hours
-                    </label>
-                    <label>
-                    <input type="radio" value="" name="order_deadline" />24 Hours
-                    </label>
-                    <label>
-                    <input type="radio" value="" name="order_deadline" />48 Hours
-                    </label>
-                    <label>
-                    <input type="radio" value="" name="order_deadline" />3 Days
-                    </label>
-                    <label>
-                    <input type="radio" value="" name="order_deadline" />4 Days
-                    </label>
-                    <label>
-                    <input type="radio" value="" name="order_deadline" />7 Days
-                    </label>
-                    <label>
-                    <input type="radio" value="" name="order_deadline" />11 Days
-                    </label>
-                    <label>
-                    <input type="radio" value="" name="order_deadline" />14 Days
-                    </label>
-                    <label>
-                    <input type="radio" value="" name="order_deadline" />21 Days
-                    </label>
-                    <label>
-                    <input type="radio" value="" name="order_deadline" />30 Days
-                    </label>
+                <input type="datetime-local" id="meeting-time" name="meeting-time" className="border border-gray-500" />
                 </div>
 
                 {/**Each level of proficiency gets to have the relative standard price*/}
@@ -114,9 +77,9 @@ const ComputePrice = () => {
             <div className="flex flex-row">
                 <div>
                     <label>
-                        <input type="radio" name="orderquality" value="1#Standard"/>
+                        <input type="radio" name="orderquality" value="1#Standard" />
                         <h6> Standard </h6><hr />
-                        <small> Standard Price writers</small>
+                        <small className="border-r-2 border-fuchsia-600"> Standard Price writers</small>
                     </label>
                 </div>
                 <div>

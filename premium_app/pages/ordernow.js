@@ -6,9 +6,16 @@ import Footer from '../Components/footer/Footer'
 import FloatingCalcTool from '../Components/ordernow/FloatingCalcTool'
 
 const orderNow = () => {
+    <style jsx>
+        {`
+        main{
+            border-style: solid red 2px;
+        }
+        `}
+    </style>
     return (
         <>
-            <main className="min-w-full">
+            <main className=" leading-10 shadow-lg">
                 <PlaceOrder />
 
                 <ComputePrice />

@@ -44,17 +44,19 @@ const CheckoutButton = () => {
 
     return (
         <>
-            <main className="align-center">
+            <main>
                 <PayPalButtons
                     style={{
-                        color: "blue",
+                        color: "silver",
                         shape: "pill",
-                        label: "pay",
+                        label: "paypal",
                         tagline: false,
-                        layout: "horizontal",
+                        layout: "vertical",
+                        size: "small"
                     }}
                     createOrder={createOrder}
                     onApprove={onApprove}
+                    className="align-center ml-96"
                 />
             </main>
         </>
