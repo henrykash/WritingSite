@@ -1,6 +1,6 @@
 const floatingCalcTool = () => {
   return(
-    <div className="box">
+    <div>
       <div>
         Academic Level
       </div>
@@ -22,12 +22,12 @@ const floatingCalcTool = () => {
 
       <div>
         Total Price:
-        <div className="bg-red-800 underline" id="TotalPrice" className="border border-gray-500"></div>
+        <div className="bg-red-800 underline" id="TotalPrice"></div>
       </div>
 
       <div>
-        <input type="text" placeholder="Enter Coupon Code"/><span>{` `}
-        <button type="submit" className="inline-flex text-white bg-red-900 border-0 py-2 px-6 focus:outline-none hover:underline rounded text-lg">Apply Coupon Code</button></span>
+        <input type="text" placeholder="Enter Coupon Code" className="border border-gray-500"/>
+        <button type="submit" className="inline-flex text-white bg-red-900 border-0 py-2 px-6 focus:outline-none hover:underline rounded text-lg">Apply Coupon Code</button>
       </div>
     </div>
   )

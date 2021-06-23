@@ -1,6 +1,8 @@
 import Link from 'next/link';
+import {useEffect} from 'react'
 
 const ComputePrice = () => {
+    useEffect(()=> {
         window.onload = function (){
         const minusButton = document.getElementById('minus');
         const plusButton = document.getElementById('plus');
@@ -18,6 +20,7 @@ const ComputePrice = () => {
         inputField.value = currentValue + 1;
         });
     }
+}, [])
     return(
         <>
         <main className="grid justify-items-center">
@@ -47,7 +50,7 @@ const ComputePrice = () => {
             <label>Input your number of pages:</label>
             <div className="py-7" id="PageNumbers">
                 <button id="minus">−</button>
-                <input value="0" id="input" className="text-center" id="pagenumber"/>
+                <input value="0" id="input" className="text-center"/>
                 <button id="plus">+</button>
             </div>
 
